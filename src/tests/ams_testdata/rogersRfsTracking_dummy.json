@@ -1,0 +1,27 @@
+{
+    "rfqTrackingNumber": "4471301251",
+    "reqSqIdxInfo": {
+        "2902997": {
+            "input_value_1": "IP Services",
+            "input_value_2": "Layer 3",
+            "input_value_8": "1000",
+            "input_value_9": "Fiber (GPON)",
+            "street": "1250 EGLINTON AVE W",
+            "city": "MISSISSAUGA",
+            "state": "ON",
+            "zip": "L5V 1N3",
+            "international": "f",
+            "npanxx": "905286",
+            "country": "CANADA",
+            "address": "1250 EGLINTON AVE W",
+            "country_2": "CANADA",
+            "location_name": "Loc 1",
+            "req_sq_id": "2500273",
+            "ma_company_id": 1847,
+            "rfq_id": 2510526,
+            "api_req_sq_idx_id": null
+        }
+    },
+    "rfqNotes": "Rogers Only",
+    "callsRemaining": 57
+}

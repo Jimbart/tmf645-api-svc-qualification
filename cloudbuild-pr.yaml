@@ -1,0 +1,88 @@
+steps:
+
+  # Decrypt K8s workload identity service account credential from secret manager into credentials.json
+  - name: gcr.io/cloud-builders/gcloud
+    id: decrypt-k8s-workload-identity-credentials
+    entrypoint: "bash"
+    args:
+      ["-c", "gcloud secrets versions access latest --secret=workload-identity-creds >./etc/secrets/credentials.json"]
+
+  # Decrypt environment secret from secret manager into .env
+  - name: gcr.io/cloud-builders/gcloud
+    id: decrypt-env-secrets
+    entrypoint: "bash"
+    args:
+      ["-c", "gcloud secrets versions access latest --secret=env-secrets >.env"]
+
+  # Copy Helm chart to Cloud Storage
+  - name: "gcr.io/cloud-builders/gsutil"
+    args:
+      [
+        "cp",
+        "-Z",
+        "helm/*",
+        "gs://${_REPO_ID}-kubernetes-manifests/${_APP_NAME}/",
+      ]
+
+  # Install dependencies, run unit tests, and build for production
+  - name: node:14-slim
+    entrypoint: npm
+    args: ["install"]
+  - name: node:14-slim
+    entrypoint: npm
+    args:
+      [
+        "test",
+        "--",
+        "--testPathIgnorePatterns",
+        ".\\*api.test.js",
+        "csq._sendEmailWithAttachment.test.js",
+        "firestoreConnection.test.js",
+        "partnerEmail.test.js",
+        "qsq._queryGetAllPartnerOffersByProvince.test.js",
+        "sqlConnection.test.js",
+        "--testPathPattern",
+        "src/tests/unit_test",
+      ]
+  - name: node:14-slim
+    entrypoint: npm
+    args: ["run", "build", "--if-present"]
+
+  # Build image
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "--tag=gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}:$SHORT_SHA",
+        ".",
+      ]
+
+  # Tag image version or pre-release
+  - name: "gcr.io/cloud-builders/docker"
+    id: tag-image-version-or-pre-release
+    args:
+      [
+        "tag",
+        "gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}:$SHORT_SHA",
+        "gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}:${_DOCKER_TAG_1}",
+      ]
+
+  # Tag image latest or testing
+  - name: "gcr.io/cloud-builders/docker"
+    id: tag-image-latest-or-testing
+    args:
+      [
+        "tag",
+        "gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}:$SHORT_SHA",
+        "gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}:${_DOCKER_TAG_2}",
+      ]
+
+# Push image to container registry
+images: ["gcr.io/${_REPO_ID}/${_NAMESPACE}/${_APP_NAME}"]
+
+# Default substitutions used in this builder file: $TAG_NAME and $PROJECT_ID
+# https://cloud.google.com/cloud-build/docs/configuring-builds/substitute-variable-values#using_default_substitutions
+substitutions:
+  _REPO_ID: cio-gke-devops-e4993356
+  _NAMESPACE: ordermgmt-svc-qualification
+  _APP_NAME: cio-svc-qualification-api-pr

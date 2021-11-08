@@ -1,0 +1,5 @@
+{
+  "reporters": ["default", "./src/tests/test_reporter/OffnetTestReporter.js"],
+  "setupFiles": ["./src/tests/jest-setup/jest-setup.js"],
+  "testEnvironment": "node"
+}

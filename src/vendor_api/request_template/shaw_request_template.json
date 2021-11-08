@@ -1,0 +1,37 @@
+{
+  "soapenv:Envelope": {
+    "$": {
+      "xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+      "xmlns:sel": "http://sellnserve.com/"
+    },
+    "soapenv:Header": [
+      {
+        "sel:Authentication": [
+          {
+            "sel:User": ["$OFFNET_SHAW_API_USER"],
+            "sel:Password": ["$OFFNET_SHAW_API_PASS"]
+          }
+        ]
+      }
+    ],
+    "soapenv:Body": [
+      {
+        "sel:GetTariffsInfo": [
+          {
+            "sel:Input": [
+              {
+                "sel:EntityName": ["LOCATION"],
+                "sel:ActionName": ["GetServiceAvailability"],
+                "sel:InputParameters": [
+                  {
+                    "sel:InputParameter": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

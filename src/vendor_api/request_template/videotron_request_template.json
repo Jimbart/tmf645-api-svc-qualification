@@ -1,0 +1,176 @@
+{
+	"soap:Envelope": {
+	  "$": {
+		"xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+		"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"xmlns:soap": "http://schemas.xmlsoap.org/soap/envelope/"
+	  },
+	  "soap:Header": [
+		{
+		  "Authentication": [
+			{
+			  "$": {
+				"xmlns": "http://www.ndacorp.com/XmlWebServices/"
+			  },
+			  "User": [
+				"$VIDEOTRON_USERNAME"
+			  ],
+			  "Password": [
+				"$VIDEOTRON_PASSWORD"
+			  ]
+			}
+		  ]
+		}
+	  ],
+	  "soap:Body": [
+		{
+		  "Design": [
+			{
+			  "$": {
+				"xmlns": "http://www.ndacorp.com/XmlWebServices/"
+			  },
+			  "circuit": [
+				{
+				  "InputParameterList": [
+					{
+					  "ParameterDto": [
+						{
+						  "Entity": [
+							"CIRCUIT"
+						  ],
+						  "ParameterName": [
+							"Type"
+						  ],
+						  "ParameterValue": [
+							"Static"
+						  ]
+						},
+						{
+						  "Entity": [
+							"CIRCUIT"
+						  ],
+						  "ParameterName": [
+							"Bandwidth"
+						  ],
+						  "ParameterValue": [
+							"15/15"
+						  ]
+						}
+					  ]
+					}
+				  ],
+				  "RequestType": [
+					"GeneratePrice"
+				  ],
+				  "Product": [
+					"Broadband Internet Access"
+				  ],
+				  "ProductSpeed": [
+					""
+				  ],
+				  "TermList": [
+					{
+					  "string": [
+						"1-Year"
+					  ]
+					}
+				  ],
+				  "CarrierService": [
+					{
+					  "CarrierCode": [
+						"ILEC"
+					  ],
+					  "CarrierName": [
+						"ILEC"
+					  ],
+					  "ServiceCode": [
+						"BIA"
+					  ],
+					  "ServiceName": [
+						"BIA"
+					  ]
+					}
+				  ],
+				  "InputSegmentList": [
+					{
+					  "SegmentDto": [
+						{
+						  "Type": [
+							"Local Access"
+						  ],
+						  "LocationA": [
+							{
+							  "Name": [
+								"LocA"
+							  ],
+							  "Type": [
+								"End User"
+							  ],
+							  "NPANXX": [
+								""
+							  ],
+							  "WCCLLI": [
+								"MTRLPQ07"
+							  ],
+							  "Lata": [
+								"888"
+							  ],
+							  "Address": [
+								"$ADDRESS"
+							  ],
+							  "City": [
+								"$CITY"
+							  ],
+							  "StateCode": [
+								"$PROVINCE"
+							  ],
+							  "CountryCode": [
+								"CA"
+							  ],
+							  "Zip": [
+								"$ZIPCODE"
+							  ],
+							  "PhoneNumber": [
+								""
+							  ],
+							  "Latitude": [
+								"$LAT"
+							  ],
+							  "Longitude": [
+								"$LONG"
+							  ],
+							  "SWCVertical": [
+								"0"
+							  ],
+							  "SWCHorizontal": [
+								"0"
+							  ],
+							  "Distance": [
+								"0"
+							  ]
+							}
+						  ],
+						  "Distance": [
+							"0"
+						  ],
+						  "InputSegmentIndex": [
+							"0"
+						  ]
+						}
+					  ]
+					}
+				  ],
+				  "QuoteVersion": [
+					"0"
+				  ],
+				  "SolutionType": [
+					"All"
+				  ]
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
+  }

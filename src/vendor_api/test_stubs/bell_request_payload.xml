@@ -1,0 +1,24 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap-env:Body>
+    <ns0:getPresaleProducts xmlns:ns0="urn:ca.bell.ots.productqualificationservice">
+      <requestHeader>
+        <serviceConsumer>Telus</serviceConsumer>
+        <serviceRequestUserId>telusqual</serviceRequestUserId>
+      </requestHeader>
+      <customerInfo>
+        <serviceRequestInfo>
+          <addressQueryDetail>
+            <address>
+              <streetNumber>2525</streetNumber>
+              <streetName>Grande Allee</streetName>
+              <streetType>ST</streetType>
+              <municipalityCity>BOISBRIAND</municipalityCity>
+              <provinceOrState>QC</provinceOrState>
+              <postalCode>J7H1E3</postalCode>
+            </address>
+          </addressQueryDetail>
+        </serviceRequestInfo>
+      </customerInfo>
+    </ns0:getPresaleProducts>
+  </soap-env:Body>
+</soap-env:Envelope>

@@ -1,0 +1,88 @@
+{
+    "rfqStatus": "Completed",
+    "rfqNotes": "Rogers Only",
+    "quotes": [
+        {
+            "term_months": 12,
+            "providers": [
+                {
+                    "provider_id": 4635,
+                    "provider_name": "N/A",
+                    "quotedVsRequestedLocs": "1/1",
+                    "locations": [
+                        {
+                            "quote_location_id": 1713840404,
+                            "quote_location_info": {
+                                "quote_location_id": 1713840404,
+                                "external_quote_id": ""
+                            },
+                            "location_info": {
+                                "id": "81127098",
+                                "req_sq_id": "71878181",
+                                "location_name": "Loc 1",
+                                "npanxx": "613230",
+                                "address": "99 BANK ST",
+                                "city": "OTTAWA",
+                                "state": "ON",
+                                "zip": "K1P 6B9",
+                                "input_value_1": "IP Services",
+                                "input_value_2": "Layer 3",
+                                "input_value_8": "1000.0 / 50.0",
+                                "input_value_9": "Cable (Ignite)",
+                                "input_value_10": "Dynamic",
+                                "input_value_11": "1",
+                                "read": "f",
+                                "service_status": "Ready",
+                                "became_ready_on": "2021-04-22 07:10:29",
+                                "status_last_updated": "2021-04-22 07:10:29",
+                                "status_updated_by_id": "0",
+                                "country": "CANADA",
+                                "international": "f",
+                                "country_2": "CANADA",
+                                "international_2": "f",
+                                "ma_company_id": "1847",
+                                "rfq_id": "72221349"
+                            },
+                            "comments": "",
+                            "skus": [
+                                {
+                                    "sku": "ANC-EQ-INT-CBL-#-MDM-CODA4582-0-4635",
+                                    "name": "Rogers Modem - Coda-4582",
+                                    "subclass": "Equipment",
+                                    "subgroup": "Cable",
+                                    "type": "",
+                                    "distance": "",
+                                    "per_loc_comments": null,
+                                    "amount_type": "MRC",
+                                    "amount": 0
+                                },
+                                {
+                                    "sku": "DT-SVC-INT-CBL-1000.0/50.0-DYN-12-4635",
+                                    "name": "Rogers Ignite - 30.0 / 5.0Mbps - Dynamic IP",
+                                    "subclass": "Service",
+                                    "subgroup": "Cable",
+                                    "type": "1000.0 / 50.0",
+                                    "distance": "",
+                                    "per_loc_comments": null,
+                                    "amount_type": "MRC",
+                                    "amount": 114.99
+                                },
+                                {
+                                    "sku": "DT-SVC-INT-CBL-1000.0/50.0-DYN-12-4635",
+                                    "name": "Rogers Ignite - 30.0 / 5.0Mbps - Dynamic IP",
+                                    "subclass": "Service",
+                                    "subgroup": "Cable",
+                                    "type": "1000.0 / 50.0",
+                                    "distance": "",
+                                    "per_loc_comments": null,
+                                    "amount_type": "NRC",
+                                    "amount": 99.99
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

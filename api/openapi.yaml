@@ -1,0 +1,1272 @@
+openapi: 3.0.1
+info:
+  description: "## TMF API Reference: TMF645 - Service Qualification\n\n Version 4.0\
+    \ \n\n Service Qualification API is one of Pre-Ordering Management API Family.\
+    \ Service Qualification API goal is to provide service technical eligibility.\
+    \ Since v4 the API is split in 2 resources to distinguish specific service qualification\
+    \ request to be performed on a described configurated service (or a list of configured\
+    \ services) from a retrieval of services eligible for a given context. The API\
+    \ allows to manage synchronous as asynchronous eligibility response (eligibility\
+    \ provided in POST response or later with an id and state provided ).  \n\n###\
+    \ CheckServiceQualification Resource \n\n This resource is use to check a configured\
+    \ service eligibility (or a list of service). A qualification result is provided\
+    \ in response. Requested could ask for unavailability reason and/or for alternate\
+    \ proposal \n\n### TMF645 performs the following operations on the check service\
+    \ qualification resource :\n- Retrieve a checkServiceQualification or a collection\
+    \ of checkServiceQualification depending on filter criteria\n- Partial update\
+    \ of a checkServiceQualification \n- Create a checkServiceQualification (including\
+    \ default values and creation rules)\n- Delete a checkServiceQualification (for\
+    \ administration purposes)\n- Manage notification on checkServiceQualification\n\
+    \n### Query Service Qualification resource\n\n Query Service Qualification is\
+    \ used to retrieve a list of service eligible in a given request provided by requester\
+    \ (via searchCriteria).\n\n### TMF645 performs the following operations on a query\
+    \ service qualification resource:\n\n- Retrieval a queryServiceQualification or\
+    \ a list of queryServiceQualification\n- Partial update of a queryServiceQualification\n\
+    - Creation of a queryServiceQualification\n- Deletion of a queryServiceQualification\n\
+    - Notification on queryServiceQualification\n\n Copyright (c) TM Forum 2019. All\
+    \ Rights Reserved"
+  title: Service Qualification Management
+  version: 4.0.0
+servers:
+- url: http://localhost:8080/tmf-api/serviceQualificationManagement/v4
+- url: https://protected-private-yul-np-001.cloudapps.telus.com/placeholder/off-net/serviceQualificationManagement/v4
+tags:
+- name: checkServiceQualification
+- name: queryServiceQualification
+paths:
+  /checkServiceQualification:
+    post:
+      description: This operation creates a CheckServiceQualification entity.
+      operationId: createCheckServiceQualification
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CheckServiceQualification_Create'
+        description: The CheckServiceQualification to be created
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CheckServiceQualification'
+          description: Success
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CheckServiceQualification'
+          description: Created
+        "400":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Bad Request
+        "401":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Unauthorized
+        "403":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Forbidden
+        "405":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Method Not allowed
+        "409":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Conflict
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Internal Server Error
+      summary: Creates a CheckServiceQualification
+      tags:
+      - checkServiceQualification
+      x-codegen-request-body-name: checkServiceQualification
+      x-eov-operation-handler: controllers/CheckServiceQualificationController
+  /checkServiceQualification/{id}:
+    get:
+      description: This operation retrieves a CheckServiceQualification entity. Attribute
+        selection is enabled for all first level attributes.
+      operationId: retrieveCheckServiceQualification
+      parameters:
+      - description: Identifier of the CheckServiceQualification
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      - description: Comma-separated properties to provide in response
+        explode: true
+        in: query
+        name: fields
+        required: false
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CheckServiceQualification'
+          description: Success
+        "400":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Bad Request
+        "401":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Unauthorized
+        "403":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Forbidden
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Not Found
+        "405":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Method Not allowed
+        "409":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Conflict
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Internal Server Error
+      summary: Retrieves a CheckServiceQualification by ID
+      tags:
+      - checkServiceQualification
+      x-eov-operation-handler: controllers/CheckServiceQualificationController
+  /queryServiceQualification:
+    post:
+      description: This operation creates a QueryServiceQualification entity.
+      operationId: createQueryServiceQualification
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryServiceQualification_Create'
+        description: The QueryServiceQualification to be created
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CheckServiceQualification'
+          description: Success
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryServiceQualification'
+          description: Created
+        "400":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Bad Request
+        "401":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Unauthorized
+        "403":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Forbidden
+        "405":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Method Not allowed
+        "409":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Conflict
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Internal Server Error
+      summary: Creates a QueryServiceQualification
+      tags:
+      - queryServiceQualification
+      x-codegen-request-body-name: queryServiceQualification
+      x-eov-operation-handler: controllers/QueryServiceQualificationController
+  /queryServiceQualification/{id}:
+    get:
+      description: This operation retrieves a QueryServiceQualification entity. Attribute
+        selection is enabled for all first level attributes.
+      operationId: retrieveQueryServiceQualification
+      parameters:
+      - description: Identifier of the QueryServiceQualification
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      - description: Comma-separated properties to provide in response
+        explode: true
+        in: query
+        name: fields
+        required: false
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryServiceQualification'
+          description: Success
+        "400":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Bad Request
+        "401":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Unauthorized
+        "403":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Forbidden
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Not Found
+        "405":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Method Not allowed
+        "409":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Conflict
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: Internal Server Error
+      summary: Retrieves a QueryServiceQualification by ID
+      tags:
+      - queryServiceQualification
+      x-eov-operation-handler: controllers/QueryServiceQualificationController
+components:
+  schemas:
+    Characteristic:
+      description: Describes a given characteristic of an object or entity through
+        a name/value pair.
+      example:
+        '@baseType': ResourceSpecification
+        '@type': LogicalResourceSpecification
+        valueType: valueType
+        name: name
+        id: id
+        '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+        value: value
+      properties:
+        id:
+          description: Unique identifier of the characteristic
+          type: string
+        name:
+          description: Name of the characteristic
+          type: string
+        valueType:
+          description: Data type of the value of the characteristic
+          type: string
+        value:
+          description: The value of the characteristic
+          type: string
+        '@baseType':
+          description: When sub-classing, this defines the super-class
+          example: ResourceSpecification
+          type: string
+        '@schemaLocation':
+          description: A URI to a JSON-Schema file that defines additional attributes
+            and relationships
+          example: https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+          format: uri
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class Extensible name
+          example: LogicalResourceSpecification
+          type: string
+      required:
+      - name
+      - value
+      type: object
+    CheckServiceQualification:
+      description: CheckServiceQualification is used to perform a technical eligibility
+        on service configuration(s). It allows to retrieve services that are technically
+        available in the context of the interaction (place, party, service characteristics,
+        ...).
+      example:
+        expectedQualificationDate: 2000-01-23T04:56:07.000+00:00
+        '@type': '@type'
+        description: description
+        externalId: externalId
+        provideAlternative: false
+        provideUnavailabilityReason: false
+        relatedParty:
+        - '@referredType': '@referredType'
+          role: role
+          '@type': LogicalResourceSpecification
+          name: name
+        - '@referredType': '@referredType'
+          role: role
+          '@type': LogicalResourceSpecification
+          name: name
+        serviceQualificationItem:
+        - terminationError:
+          - '@baseType': '@baseType'
+            '@type': '@type'
+            id: id
+            '@schemaLocation': https://openapi-generator.tech
+            value: value
+          - '@baseType': '@baseType'
+            '@type': '@type'
+            id: id
+            '@schemaLocation': https://openapi-generator.tech
+            value: value
+          eligibilityUnavailabilityReason:
+          - code: code
+            label: label
+          - code: code
+            label: label
+          qualificationResult: qualificationResult
+          service:
+            serviceType: serviceType
+            '@type': LogicalResourceSpecification
+            serviceSpecification:
+              '@type': LogicalResourceSpecification
+              name: name
+              id: id
+              href: https://openapi-generator.tech
+              version: version
+            place:
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            relatedParty:
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            serviceCharacteristic:
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+          '@type': '@type'
+          id: id
+          state: state
+          expirationDate: 2000-01-23T04:56:07.000+00:00
+        - terminationError:
+          - '@baseType': '@baseType'
+            '@type': '@type'
+            id: id
+            '@schemaLocation': https://openapi-generator.tech
+            value: value
+          - '@baseType': '@baseType'
+            '@type': '@type'
+            id: id
+            '@schemaLocation': https://openapi-generator.tech
+            value: value
+          eligibilityUnavailabilityReason:
+          - code: code
+            label: label
+          - code: code
+            label: label
+          qualificationResult: qualificationResult
+          service:
+            serviceType: serviceType
+            '@type': LogicalResourceSpecification
+            serviceSpecification:
+              '@type': LogicalResourceSpecification
+              name: name
+              id: id
+              href: https://openapi-generator.tech
+              version: version
+            place:
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            relatedParty:
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            serviceCharacteristic:
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+          '@type': '@type'
+          id: id
+          state: state
+          expirationDate: 2000-01-23T04:56:07.000+00:00
+        instantSyncQualification: true
+        qualificationResult: qualificationResult
+        '@baseType': '@baseType'
+        effectiveQualificationDate: 2000-01-23T04:56:07.000+00:00
+        id: id
+        href: href
+        '@schemaLocation': https://openapi-generator.tech
+        estimatedResponseDate: 2000-01-23T04:56:07.000+00:00
+        checkServiceQualificationDate: 2000-01-23T04:56:07.000+00:00
+        expirationDate: 2000-01-23T04:56:07.000+00:00
+      properties:
+        id:
+          description: Unique identifier of the serviceQualification resource
+          type: string
+        href:
+          description: Hyperlink to access the serviceQualification
+          type: string
+        checkServiceQualificationDate:
+          description: Date when the serviceQualification was submitted
+          format: date-time
+          type: string
+        description:
+          description: Description of the serviceQualification
+          type: string
+        effectiveQualificationDate:
+          description: Effective date to serviceQualification completion
+          format: date-time
+          type: string
+        estimatedResponseDate:
+          description: Date when the requester expect to provide an answer for the
+            qualification request.
+          format: date-time
+          type: string
+        expectedQualificationDate:
+          description: A date (DateTime). Deadline date when the requester expected
+            a qualification answer.
+          format: date-time
+          type: string
+        expirationDate:
+          description: Date when the qualification response expires
+          format: date-time
+          type: string
+        externalId:
+          description: Identifier provided by the requester
+          type: string
+        instantSyncQualification:
+          description: An indicator which when the value is "true" means that requester
+            expects to get qualifcation result immediately in the response. If the
+            indicator is true then the response code of 200 indicates the operation
+            is successful otherwise a task is created with a response 201.
+          type: boolean
+        provideAlternative:
+          default: false
+          description: When the value is TRUE means that alternative solutions should
+            be provided
+          type: boolean
+        provideUnavailabilityReason:
+          default: false
+          description: When the value is TRUE means that unavailability reason are
+            expected for non available service.
+          type: boolean
+        qualificationResult:
+          description: 'Qualification result for this serviceQualification. It could
+            be:  qualified (all qualification item are qualified), alternate (At least
+            one item alternate and no item with  unqualified), unqualified (At least
+            one item unqualified)'
+          type: string
+        relatedParty:
+          description: A list of related party references, defines party or party
+            role linked to this request.
+          items:
+            $ref: '#/components/schemas/RelatedParty'
+          type: array
+        serviceQualificationItem:
+          description: A list of service qualification items.
+          items:
+            $ref: '#/components/schemas/CheckServiceQualificationItem'
+          type: array
+        state:
+          $ref: '#/components/schemas/TaskStateType'
+        '@baseType':
+          description: When sub-classing, this defines the super-class
+          type: string
+        '@schemaLocation':
+          description: A URI to a JSON-Schema file that defines additional attributes
+            and relationships
+          format: uri
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    CheckServiceQualification_Create:
+      description: |-
+        CheckServiceQualification is used to perform a technical eligibility on service configuration(s). It allows to retrieve services that are technically available in the context of the interaction (place, party, service characteristics, ...).
+        Skipped properties: id,href,state,effectiveQualificationDate,qualificationResult,expirationDate,checkServiceQualificationDate,estimatedResponseDate,serviceQualificationItem.alternateServiceProposal,serviceQualificationItem.state,serviceQualificationItem.qualificationResult
+      properties:
+        description:
+          description: Description of the serviceQualification
+          type: string
+        externalId:
+          description: Identifier provided by the requester
+          type: string
+        instantSyncQualification:
+          description: An indicator which when the value is "true" means that requester
+            expects to get qualifcation result immediately in the response. If the
+            indicator is true then the response code of 200 indicates the operation
+            is successful otherwise a task is created with a response 201.
+          type: boolean
+        serviceQualificationItem:
+          description: A list of service qualification items.
+          items:
+            $ref: '#/components/schemas/CheckServiceQualificationItem'
+          minItems: 1
+          type: array
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      required:
+      - serviceQualificationItem
+      type: object
+    CheckServiceQualificationItem:
+      description: A ServiceQualificationItem relates to a specific service being
+        checked in a qualification operation.
+      example:
+        terminationError:
+        - '@baseType': '@baseType'
+          '@type': '@type'
+          id: id
+          '@schemaLocation': https://openapi-generator.tech
+          value: value
+        - '@baseType': '@baseType'
+          '@type': '@type'
+          id: id
+          '@schemaLocation': https://openapi-generator.tech
+          value: value
+        eligibilityUnavailabilityReason:
+        - code: code
+          label: label
+        - code: code
+          label: label
+        qualificationResult: qualificationResult
+        service:
+          serviceType: serviceType
+          '@type': LogicalResourceSpecification
+          serviceSpecification:
+            '@type': LogicalResourceSpecification
+            name: name
+            id: id
+            href: https://openapi-generator.tech
+            version: version
+          place:
+          - role: role
+            '@type': LogicalResourceSpecification
+            id: id
+          - role: role
+            '@type': LogicalResourceSpecification
+            id: id
+          relatedParty:
+          - '@referredType': '@referredType'
+            role: role
+            '@type': LogicalResourceSpecification
+            name: name
+          - '@referredType': '@referredType'
+            role: role
+            '@type': LogicalResourceSpecification
+            name: name
+          serviceCharacteristic:
+          - '@baseType': ResourceSpecification
+            '@type': LogicalResourceSpecification
+            valueType: valueType
+            name: name
+            id: id
+            '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+            value: value
+          - '@baseType': ResourceSpecification
+            '@type': LogicalResourceSpecification
+            valueType: valueType
+            name: name
+            id: id
+            '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+            value: value
+        '@type': '@type'
+        id: id
+        state: state
+        expirationDate: 2000-01-23T04:56:07.000+00:00
+      properties:
+        id:
+          description: Id of the Service Qualification Item
+          type: string
+        expirationDate:
+          description: Date when the qualification item response expires
+          format: date-time
+          type: string
+        qualificationResult:
+          description: 'Qualification result for serviceQualification item. It could
+            be: - qualified (request service are available), - unqualified (requested
+            not available and not alternate available), - alternate (requested not
+            available but proposal available)'
+          type: string
+        state:
+          description: State of the serviceQualification item (accepted, inProgress,
+            terminatedWithError, done)
+          type: string
+        eligibilityUnavailabilityReason:
+          description: A list of eligibility unavailability reasons (EligibilityUnavailabilityReason
+            [*]). Reason for eligibility result if the serviceQualification result
+            is no (meaning the service is not available).
+          items:
+            $ref: '#/components/schemas/ServiceEligibilityUnavailabilityReason'
+          type: array
+        service:
+          $ref: '#/components/schemas/ServiceRefOrValue'
+        terminationError:
+          description: If qualificationItem has not been done properly this lists
+            the error(s) that caused termination of the qualification.
+          items:
+            $ref: '#/components/schemas/TerminationError'
+          type: array
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    QueryServiceQualification:
+      description: QueryServiceQualification is used to retrieve a list of services
+        that are technically available in the context of the interaction (place, party,
+        service characteristics, ...).
+      example:
+        serviceQualificationItem:
+        - service:
+            serviceType: serviceType
+            '@type': LogicalResourceSpecification
+            serviceSpecification:
+              '@type': LogicalResourceSpecification
+              name: name
+              id: id
+              href: https://openapi-generator.tech
+              version: version
+            place:
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            relatedParty:
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            serviceCharacteristic:
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+          '@type': '@type'
+          id: id
+        - service:
+            serviceType: serviceType
+            '@type': LogicalResourceSpecification
+            serviceSpecification:
+              '@type': LogicalResourceSpecification
+              name: name
+              id: id
+              href: https://openapi-generator.tech
+              version: version
+            place:
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            relatedParty:
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            serviceCharacteristic:
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+          '@type': '@type'
+          id: id
+        searchCriteria:
+          service:
+            serviceType: serviceType
+            '@type': LogicalResourceSpecification
+            serviceSpecification:
+              '@type': LogicalResourceSpecification
+              name: name
+              id: id
+              href: https://openapi-generator.tech
+              version: version
+            place:
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            - role: role
+              '@type': LogicalResourceSpecification
+              id: id
+            relatedParty:
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            - '@referredType': '@referredType'
+              role: role
+              '@type': LogicalResourceSpecification
+              name: name
+            serviceCharacteristic:
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+            - '@baseType': ResourceSpecification
+              '@type': LogicalResourceSpecification
+              valueType: valueType
+              name: name
+              id: id
+              '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+              value: value
+          '@type': '@type'
+          id: id
+        effectiveQualificationDate: 2000-01-23T04:56:07.000+00:00
+        '@type': '@type'
+        description: description
+        externalId: externalId
+        id: id
+        href: href
+        queryServiceQualificationDate: 2000-01-23T04:56:07.000+00:00
+      properties:
+        id:
+          description: Unique identifier of the serviceQualification resource
+          type: string
+        href:
+          description: Hyperlink to access the serviceQualification
+          type: string
+        description:
+          description: Description of the serviceQualification
+          type: string
+        effectiveQualificationDate:
+          description: Effective date to serviceQualification completion
+          format: date-time
+          type: string
+        externalId:
+          description: Identifier provided by the requester
+          type: string
+        queryServiceQualificationDate:
+          description: Date when the serviceQualification was submitted
+          format: date-time
+          type: string
+        searchCriteria:
+          $ref: '#/components/schemas/ServiceQualificationItem'
+        serviceQualificationItem:
+          description: A list of service qualification items.
+          items:
+            $ref: '#/components/schemas/ServiceQualificationItem'
+          type: array
+        state:
+          $ref: '#/components/schemas/TaskStateType'
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    QueryServiceQualification_Create:
+      description: |-
+        QueryServiceQualification is used to retrieve a list of services that are technically available in the context of the interaction (place, party, service characteristics, ...).
+        Skipped properties: id,href,serviceQualificationItem,state,effectiveQualificationDate,expirationDate,estimatedResponseDate,queryServiceQualificationDate
+      properties:
+        description:
+          description: Description of the serviceQualification
+          type: string
+        externalId:
+          description: Identifier provided by the requester
+          type: string
+        searchCriteria:
+          $ref: '#/components/schemas/ServiceQualificationItem'
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      required:
+      - searchCriteria
+      type: object
+    RelatedParty:
+      description: Related Entity reference. A related party defines party or party
+        role linked to a specific entity.
+      example:
+        '@referredType': '@referredType'
+        role: role
+        '@type': LogicalResourceSpecification
+        name: name
+      properties:
+        name:
+          description: Name of the related entity.
+          type: string
+        role:
+          description: Role played by the related party
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class Extensible name
+          example: LogicalResourceSpecification
+          type: string
+        '@referredType':
+          description: The actual type of the target instance when needed for disambiguation.
+          type: string
+      required:
+      - '@referredType'
+      type: object
+    RelatedPlaceRefOrValue:
+      description: Related Entity reference. A related place defines a place described
+        by reference or by value linked to a specific entity. The polymorphic attributes
+        @type, @schemaLocation & @referredType are related to the place entity and
+        not the RelatedPlaceRefOrValue class itself
+      example:
+        role: role
+        '@type': LogicalResourceSpecification
+        id: id
+      properties:
+        id:
+          description: Unique identifier of the place
+          type: string
+        role:
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class Extensible name
+          example: LogicalResourceSpecification
+          type: string
+      required:
+      - role
+      type: object
+    Service:
+      description: 'Service is a base class for defining the Service hierarchy. All
+        Services are characterized as either being possibly visible and usable by
+        a Customer or not. This gives rise to the two subclasses of Service: CustomerFacingService
+        and ResourceFacingService.'
+      properties:
+        serviceType:
+          description: Business type of the service
+          type: string
+        place:
+          description: A list of places (Place [*]). Used to define a place useful
+            for the service (for example a geographical place whre the service is
+            installed)
+          items:
+            $ref: '#/components/schemas/RelatedPlaceRefOrValue'
+          type: array
+        relatedParty:
+          description: A list of related party references (RelatedParty [*]). A related
+            party defines party or party role linked to a specific entity
+          items:
+            $ref: '#/components/schemas/RelatedParty'
+          type: array
+        serviceCharacteristic:
+          description: 'A list of characteristics that characterize this service (ServiceCharacteristic
+            [*]) '
+          items:
+            $ref: '#/components/schemas/Characteristic'
+          type: array
+        serviceSpecification:
+          $ref: '#/components/schemas/ServiceSpecificationRef'
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    ServiceEligibilityUnavailabilityReason:
+      description: Reason for eligibility result if the ServiceQualification result
+        is no (meaning the Service is not available)
+      example:
+        code: code
+        label: label
+      properties:
+        code:
+          description: Unavailability reason code
+          type: string
+        label:
+          description: Unavailability reason label
+          type: string
+      type: object
+    ServiceQualificationItem:
+      description: A ServiceQualificationItem relates to a specific service being
+        checked in a qualification operation.
+      example:
+        service:
+          serviceType: serviceType
+          '@type': LogicalResourceSpecification
+          serviceSpecification:
+            '@type': LogicalResourceSpecification
+            name: name
+            id: id
+            href: https://openapi-generator.tech
+            version: version
+          place:
+          - role: role
+            '@type': LogicalResourceSpecification
+            id: id
+          - role: role
+            '@type': LogicalResourceSpecification
+            id: id
+          relatedParty:
+          - '@referredType': '@referredType'
+            role: role
+            '@type': LogicalResourceSpecification
+            name: name
+          - '@referredType': '@referredType'
+            role: role
+            '@type': LogicalResourceSpecification
+            name: name
+          serviceCharacteristic:
+          - '@baseType': ResourceSpecification
+            '@type': LogicalResourceSpecification
+            valueType: valueType
+            name: name
+            id: id
+            '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+            value: value
+          - '@baseType': ResourceSpecification
+            '@type': LogicalResourceSpecification
+            valueType: valueType
+            name: name
+            id: id
+            '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+            value: value
+        '@type': '@type'
+        id: id
+      properties:
+        id:
+          description: Id of the Service Qualification Item
+          type: string
+        service:
+          $ref: '#/components/schemas/ServiceRefOrValue'
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    ServiceRefOrValue:
+      description: A Service to be created defined by value or existing defined by
+        reference. The polymorphic attributes @type, @schemaLocation & @referredType
+        are related to the Service entity and not the RelatedServiceRefOrValue class
+        itself
+      example:
+        serviceType: serviceType
+        '@type': LogicalResourceSpecification
+        serviceSpecification:
+          '@type': LogicalResourceSpecification
+          name: name
+          id: id
+          href: https://openapi-generator.tech
+          version: version
+        place:
+        - role: role
+          '@type': LogicalResourceSpecification
+          id: id
+        - role: role
+          '@type': LogicalResourceSpecification
+          id: id
+        relatedParty:
+        - '@referredType': '@referredType'
+          role: role
+          '@type': LogicalResourceSpecification
+          name: name
+        - '@referredType': '@referredType'
+          role: role
+          '@type': LogicalResourceSpecification
+          name: name
+        serviceCharacteristic:
+        - '@baseType': ResourceSpecification
+          '@type': LogicalResourceSpecification
+          valueType: valueType
+          name: name
+          id: id
+          '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+          value: value
+        - '@baseType': ResourceSpecification
+          '@type': LogicalResourceSpecification
+          valueType: valueType
+          name: name
+          id: id
+          '@schemaLocation': https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json
+          value: value
+      properties:
+        serviceType:
+          description: Business type of the service
+          type: string
+        place:
+          description: A list of places (Place [*]). Used to define a place useful
+            for the service (for example a geographical place whre the service is
+            installed)
+          items:
+            $ref: '#/components/schemas/RelatedPlaceRefOrValue'
+          type: array
+        relatedParty:
+          description: A list of related party references (RelatedParty [*]). A related
+            party defines party or party role linked to a specific entity
+          items:
+            $ref: '#/components/schemas/RelatedParty'
+          type: array
+        serviceCharacteristic:
+          description: 'A list of characteristics that characterize this service (ServiceCharacteristic
+            [*]) '
+          items:
+            $ref: '#/components/schemas/Characteristic'
+          type: array
+        serviceSpecification:
+          $ref: '#/components/schemas/ServiceSpecificationRef'
+        '@type':
+          description: When sub-classing, this defines the sub-class Extensible name
+          example: LogicalResourceSpecification
+          type: string
+      type: object
+    ServiceSpecificationRef:
+      description: 'Service specification reference: ServiceSpecification(s) required
+        to realize a ProductSpecification.'
+      example:
+        '@type': LogicalResourceSpecification
+        name: name
+        id: id
+        href: https://openapi-generator.tech
+        version: version
+      properties:
+        id:
+          description: unique identifier
+          type: string
+        href:
+          description: Hyperlink reference
+          format: uri
+          type: string
+        name:
+          description: Name of the related entity.
+          type: string
+        version:
+          description: Service specification version
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class Extensible name
+          example: LogicalResourceSpecification
+          type: string
+      required:
+      - id
+      type: object
+    TaskStateType:
+      description: Possible values for the state of a task
+      enum:
+      - accepted
+      - terminatedWithError
+      - inProgress
+      - done
+      type: string
+    TerminationError:
+      description: This indicates an error that caused a qualificationItem to be terminated.
+      example:
+        '@baseType': '@baseType'
+        '@type': '@type'
+        id: id
+        '@schemaLocation': https://openapi-generator.tech
+        value: value
+      properties:
+        id:
+          description: Unique identifier of the termination error
+          type: string
+        value:
+          description: 'Text to describe the termination error - for example: Unable
+            to proceed to qualification because incomplete information provided'
+          type: string
+        '@baseType':
+          description: When sub-classing, this defines the super-class
+          type: string
+        '@schemaLocation':
+          description: A URI to a JSON-Schema file that defines additional attributes
+            and relationships
+          format: uri
+          type: string
+        '@type':
+          description: When sub-classing, this defines the sub-class entity name
+          type: string
+      type: object
+    Error:
+      description: Used when an API throws an Error, typically with a HTTP error response-code
+        (3xx, 4xx, 5xx)
+      properties:
+        code:
+          description: Application relevant detail, defined in the API or a common
+            list.
+          type: string
+        reason:
+          description: Explanation of the reason for the error which can be shown
+            to a client user.
+          type: string
+        message:
+          description: More details and corrective actions related to the error which
+            can be shown to a client user.
+          type: string
+        status:
+          description: HTTP Error code extension
+          type: string
+        referenceError:
+          description: URI of documentation describing the error.
+          format: uri
+          type: string
+      required:
+      - code
+      - reason
+      type: object
+    GeographicAddress:
+      description: |-
+        Structured textual way of describing how to find a Property in an urban area (country properties are often defined differently).
+        Note : Address corresponds to SID UrbanPropertyAddress
+      properties:
+        id:
+          description: LPDS_ID from Address Management API
+          type: string
+        city:
+          description: City that the address is in
+          type: string
+        country:
+          description: Country that the address is in
+          type: string
+        postcode:
+          description: descriptor for a postal delivery area, used to speed and simplify
+            the delivery of mail (also know as zipcode)
+          type: string
+        stateOrProvince:
+          description: the State or Province that the address is in
+          type: string
+        streetName:
+          description: Name of the street or other street type
+          type: string
+        streetNr:
+          description: Number identifying a specific property on a public street.
+            It may be combined with streetNrLast for ranged addresses
+          type: string
+        streetType:
+          description: 'alley, avenue, boulevard, brae, crescent, drive, highway,
+            lane, terrace, parade, place, tarn, way, wharf '
+          type: string
+      type: object

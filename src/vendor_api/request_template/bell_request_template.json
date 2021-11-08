@@ -1,0 +1,37 @@
+{
+  "soap-env:Envelope": {
+    "$": {
+      "xmlns:soap-env": "http://schemas.xmlsoap.org/soap/envelope/"
+    },
+    "soap-env:Body": [
+      {
+        "ns0:getPresaleProducts": [
+          {
+            "$": {
+              "xmlns:ns0": "urn:ca.bell.ots.productqualificationservice"
+            },
+            "requestHeader": [
+              {
+                "serviceConsumer": ["Telus"],
+                "serviceRequestUserId": ["telusqual"]
+              }
+            ],
+            "customerInfo": [
+              {
+                "serviceRequestInfo": [
+                  {
+                    "addressQueryDetail": [
+                      {
+                        "address": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

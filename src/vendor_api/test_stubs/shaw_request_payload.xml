@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sel="http://sellnserve.com/">
+   <soapenv:Header>
+      <sel:Authentication>
+         <sel:User>TELUSapi</sel:User>
+         <sel:Password>shawnda1!</sel:Password>
+      </sel:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <sel:GetTariffsInfo>
+         <sel:Input>
+            <sel:EntityName>LOCATION</sel:EntityName>
+            <sel:ActionName>GetServiceAvailability</sel:ActionName>
+            <sel:InputParameters>
+               <sel:InputParameter>
+                  <sel:Name>street</sel:Name>
+                  <sel:Value>2525 Grande Allee</sel:Value>
+               </sel:InputParameter>
+               <sel:InputParameter>
+                  <sel:Name>city</sel:Name>
+                  <sel:Value>BOISBRIAND</sel:Value>
+               </sel:InputParameter>
+               <sel:InputParameter>
+                  <sel:Name>state</sel:Name>
+                  <sel:Value>QC</sel:Value>
+               </sel:InputParameter>
+               <sel:InputParameter>
+                  <sel:Name>country</sel:Name>
+                  <sel:Value>CA</sel:Value>
+               </sel:InputParameter>
+               <sel:InputParameter>
+                  <sel:Name>zip</sel:Name>
+                  <sel:Value>J7H1E3</sel:Value>
+               </sel:InputParameter>
+            </sel:InputParameters>
+         </sel:Input>
+      </sel:GetTariffsInfo>
+   </soapenv:Body>
+</soapenv:Envelope>

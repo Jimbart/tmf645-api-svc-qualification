@@ -1,0 +1,4766 @@
+[
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2635 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10678434",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "1389019",
+          "FMS_ID": "001224171 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA1506348"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "706",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "BEARSPAW VILLAGE",
+        "streetTypeSuffix": "DRIVE",
+        "dirSuffix": null,
+        "city": "CALGARY",
+        "province": "AB",
+        "postalCode": "T3L2P3",
+        "country": "CAN",
+        "coid": "CRCDAB",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": "3",
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 51.1381280000023,
+          "longitude": -114.289587
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "CROWCHILD (AB)",
+            "zoneAttributes": {
+              "COID": "CRCDAB",
+              "CO_CLLI": "CLGRAB33",
+              "CO_SAP_NAME": "CRCD"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Edmonton",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-07:00",
+              "TIME_ZONE_NAME": "Mountain Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "MST",
+              "TIME_ZONE_REGIONS": "America/Edmonton"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "132",
+            "zoneAttributes": { "E911_MUNICIPALITY": "ROCKY VIEW COUNTY" }
+          }
+        ],
+        "inventoryInfo": { "EXTERNAL_DOOR": "5" },
+        "fmsAddress": {
+          "saNo": "001224171",
+          "rescCd": "201",
+          "saHouse": "706",
+          "saStreetName": "BEARSPAW VILLAG DR",
+          "saCityProvinceCode": "CALGARY AB",
+          "saPostalCode": "T3L2P3",
+          "saCLLICode": "CLGR",
+          "servCoid": "CRCD",
+          "saClliProvCd": "AB"
+        },
+        "e911Address": {
+          "houseNumber": "706",
+          "streetName": "BEARSPAW VILLAGE",
+          "streetType": "DR",
+          "municipality": "ROCKY VIEW COUNTY",
+          "province": "AB",
+          "postalCode": "T3L2P3",
+          "e911Clli": "CLGR",
+          "eszNumber": "132"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2508 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10679765",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "1389020",
+          "FMS_ID": "001218210 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA1506437"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "707",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "BEARSPAW VILLAGE",
+        "streetTypeSuffix": "DRIVE",
+        "dirSuffix": null,
+        "city": "CALGARY",
+        "province": "AB",
+        "postalCode": "T3L2P3",
+        "country": "CAN",
+        "coid": "CRCDAB",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": "3",
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 51.1370370000023,
+          "longitude": -114.288453
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "CROWCHILD (AB)",
+            "zoneAttributes": {
+              "COID": "CRCDAB",
+              "CO_CLLI": "CLGRAB33",
+              "CO_SAP_NAME": "CRCD"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Edmonton",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-07:00",
+              "TIME_ZONE_NAME": "Mountain Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "MST",
+              "TIME_ZONE_REGIONS": "America/Edmonton"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "132",
+            "zoneAttributes": { "E911_MUNICIPALITY": "ROCKY VIEW COUNTY" }
+          }
+        ],
+        "inventoryInfo": { "EXTERNAL_DOOR": "5" },
+        "fmsAddress": {
+          "saNo": "001218210",
+          "rescCd": "201",
+          "saHouse": "707",
+          "saStreetName": "BEARSPAW VILLAG DR",
+          "saCityProvinceCode": "CALGARY AB",
+          "saPostalCode": "T3L2P3",
+          "saCLLICode": "CLGR",
+          "servCoid": "CRCD",
+          "saClliProvCd": "AB"
+        },
+        "e911Address": {
+          "houseNumber": "707",
+          "streetName": "BEARSPAW VILLAGE",
+          "streetType": "DR",
+          "municipality": "ROCKY VIEW COUNTY",
+          "province": "AB",
+          "postalCode": "T3L2P3",
+          "e911Clli": "CLGR",
+          "eszNumber": "132"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2509 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10678481",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "1389021",
+          "FMS_ID": "001221790 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA1506837"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "709",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "BEARSPAW VILLAGE",
+        "streetTypeSuffix": "DRIVE",
+        "dirSuffix": null,
+        "city": "CALGARY",
+        "province": "AB",
+        "postalCode": "T3L2P3",
+        "country": "CAN",
+        "coid": "CRCDAB",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": "3",
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 51.1368840000023,
+          "longitude": -114.289765
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "CROWCHILD (AB)",
+            "zoneAttributes": {
+              "COID": "CRCDAB",
+              "CO_CLLI": "CLGRAB33",
+              "CO_SAP_NAME": "CRCD"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Edmonton",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-07:00",
+              "TIME_ZONE_NAME": "Mountain Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "MST",
+              "TIME_ZONE_REGIONS": "America/Edmonton"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "132",
+            "zoneAttributes": { "E911_MUNICIPALITY": "ROCKY VIEW COUNTY" }
+          }
+        ],
+        "inventoryInfo": { "EXTERNAL_DOOR": "5" },
+        "fmsAddress": {
+          "saNo": "001221790",
+          "rescCd": "201",
+          "saHouse": "709",
+          "saStreetName": "BEARSPAW VILLAG DR",
+          "saCityProvinceCode": "CALGARY AB",
+          "saPostalCode": "T3L2P3",
+          "saCLLICode": "CLGR",
+          "servCoid": "CRCD",
+          "saClliProvCd": "AB"
+        },
+        "e911Address": {
+          "houseNumber": "709",
+          "streetName": "BEARSPAW VILLAGE",
+          "streetType": "DR",
+          "municipality": "ROCKY VIEW COUNTY",
+          "province": "AB",
+          "postalCode": "T3L2P3",
+          "e911Clli": "CLGR",
+          "eszNumber": "132"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2488 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10676733",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "1389023",
+          "FMS_ID": "001800682 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA1508018"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "711",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "BEARSPAW VILLAGE",
+        "streetTypeSuffix": "DRIVE",
+        "dirSuffix": null,
+        "city": "CALGARY",
+        "province": "AB",
+        "postalCode": null,
+        "country": "CAN",
+        "coid": "CRCDAB",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 51.1372600000023,
+          "longitude": -114.290958
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "CROWCHILD (AB)",
+            "zoneAttributes": {
+              "COID": "CRCDAB",
+              "CO_CLLI": "CLGRAB33",
+              "CO_SAP_NAME": "CRCD"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Edmonton",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-07:00",
+              "TIME_ZONE_NAME": "Mountain Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "MST",
+              "TIME_ZONE_REGIONS": "America/Edmonton"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "132",
+            "zoneAttributes": { "E911_MUNICIPALITY": "ROCKY VIEW COUNTY" }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "001800682",
+          "rescCd": "201",
+          "saHouse": "711",
+          "saStreetName": "BEARSPAW VILLAG DR",
+          "saCityProvinceCode": "CALGARY AB",
+          "saCLLICode": "CLGR",
+          "servCoid": "CRCD",
+          "saClliProvCd": "AB"
+        },
+        "e911Address": {
+          "houseNumber": "711",
+          "streetName": "BEARSPAW VILLAGE",
+          "streetType": "DR",
+          "municipality": "ROCKY VIEW COUNTY",
+          "province": "AB",
+          "e911Clli": "CLGR",
+          "eszNumber": "132"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2536 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10676301",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "1389024",
+          "FMS_ID": "001218208 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA1508439"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "713",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "BEARSPAW VILLAGE",
+        "streetTypeSuffix": "DRIVE",
+        "dirSuffix": null,
+        "city": "CALGARY",
+        "province": "AB",
+        "postalCode": "T3L2P3",
+        "country": "CAN",
+        "coid": "CRCDAB",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": "3",
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 51.1365200000023,
+          "longitude": -114.292054
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "CROWCHILD (AB)",
+            "zoneAttributes": {
+              "COID": "CRCDAB",
+              "CO_CLLI": "CLGRAB33",
+              "CO_SAP_NAME": "CRCD"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Edmonton",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-07:00",
+              "TIME_ZONE_NAME": "Mountain Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "MST",
+              "TIME_ZONE_REGIONS": "America/Edmonton"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "132",
+            "zoneAttributes": { "E911_MUNICIPALITY": "ROCKY VIEW COUNTY" }
+          }
+        ],
+        "inventoryInfo": { "EXTERNAL_DOOR": "5" },
+        "fmsAddress": {
+          "saNo": "001218208",
+          "rescCd": "201",
+          "saHouse": "713",
+          "saStreetName": "BEARSPAW VILLAG DR",
+          "saCityProvinceCode": "CALGARY AB",
+          "saPostalCode": "T3L2P3",
+          "saCLLICode": "CLGR",
+          "servCoid": "CRCD",
+          "saClliProvCd": "AB"
+        },
+        "e911Address": {
+          "houseNumber": "713",
+          "streetName": "BEARSPAW VILLAGE",
+          "streetType": "DR",
+          "municipality": "ROCKY VIEW COUNTY",
+          "province": "AB",
+          "postalCode": "T3L2P3",
+          "e911Clli": "CLGR",
+          "eszNumber": "132"
+        }
+      }
+    ]
+  },
+
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2606 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA18017839",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "3059020",
+          "FMS_ID": "005693856 / 202",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA17659509"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "19669",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "73B",
+        "streetTypeSuffix": "AVENUE",
+        "dirSuffix": null,
+        "city": "LANGLEY",
+        "province": "BC",
+        "postalCode": "V2Y3C4",
+        "country": "CAN",
+        "coid": "LNGLBC",
+        "serviceable": "EXISTING",
+        "serviceableCode": "2",
+        "buildingType": "SFU",
+        "premiseCountFlag": "Y",
+        "premiseCountDate": "18-10-12",
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 49.1364487000076,
+          "longitude": -122.6774063
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "FDSA",
+            "zoneName": "1044A",
+            "zoneAttributes": {
+              "COID": "LNGLBC",
+              "FSA_READY_DATE": null,
+              "FSA_LAUNCH_DATE": null,
+              "FSA_BAU_DATE": null
+            }
+          },
+          {
+            "zoneType": "DSA",
+            "zoneName": "1044",
+            "zoneAttributes": { "COID": "LNGLBC" }
+          },
+          {
+            "zoneType": "OEB",
+            "zoneName": "LANGLEY (BC)",
+            "zoneAttributes": {
+              "COID": "LNGLBC",
+              "CO_CLLI": "LNGLBC01",
+              "CO_SAP_NAME": "LNGL"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Vancouver",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-08:00",
+              "TIME_ZONE_NAME": "Pacific Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "PST",
+              "TIME_ZONE_REGIONS": "America/Vancouver"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "4888",
+            "zoneAttributes": { "E911_MUNICIPALITY": "LANGLEY BC" }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "005693856",
+          "rescCd": "202",
+          "saHouse": "19669",
+          "saStreetName": "73B AVE",
+          "saCityProvinceCode": "LANGLEY BC",
+          "saPostalCode": "V2Y3B4",
+          "saCLLICode": "LNGL",
+          "servCoid": "LNGL",
+          "saClliProvCd": "BC"
+        },
+        "e911Address": {
+          "houseNumber": "19669",
+          "streetName": "73B",
+          "streetType": "AVE",
+          "municipality": "LANGLEY BC",
+          "province": "BC",
+          "postalCode": "V2Y3B4",
+          "e911Clli": "LNGL",
+          "eszNumber": "4888"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2601 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA18018001",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "3059021",
+          "FMS_ID": "005800134 / 202",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA17659668"
+        },
+        "unit": "BSMT",
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "19675",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "73B",
+        "streetTypeSuffix": "AVENUE",
+        "dirSuffix": null,
+        "city": "LANGLEY",
+        "province": "BC",
+        "postalCode": "V2Y3C4",
+        "country": "CAN",
+        "coid": "LNGLBC",
+        "serviceable": "DOES NOT EXIST",
+        "serviceableCode": "3",
+        "buildingType": "SFU",
+        "premiseCountFlag": "Y",
+        "premiseCountDate": "18-10-12",
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 49.1364476800076,
+          "longitude": -122.6772226
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "FDSA",
+            "zoneName": "1044A",
+            "zoneAttributes": {
+              "COID": "LNGLBC",
+              "FSA_READY_DATE": null,
+              "FSA_LAUNCH_DATE": null,
+              "FSA_BAU_DATE": null
+            }
+          },
+          {
+            "zoneType": "DSA",
+            "zoneName": "1044",
+            "zoneAttributes": { "COID": "LNGLBC" }
+          },
+          {
+            "zoneType": "OEB",
+            "zoneName": "LANGLEY (BC)",
+            "zoneAttributes": {
+              "COID": "LNGLBC",
+              "CO_CLLI": "LNGLBC01",
+              "CO_SAP_NAME": "LNGL"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Vancouver",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-08:00",
+              "TIME_ZONE_NAME": "Pacific Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "PST",
+              "TIME_ZONE_REGIONS": "America/Vancouver"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "4888",
+            "zoneAttributes": { "E911_MUNICIPALITY": "LANGLEY BC" }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "005800134",
+          "rescCd": "202",
+          "saAptNo": "BSMT",
+          "saHouse": "19675",
+          "saStreetName": "73B AVE",
+          "saCityProvinceCode": "LANGLEY BC",
+          "saPostalCode": "V2Y3C4",
+          "saCLLICode": "LNGL",
+          "servCoid": "LNGL",
+          "saClliProvCd": "BC"
+        },
+        "e911Address": {
+          "unit": "BSMT",
+          "houseNumber": "19675",
+          "streetName": "73B",
+          "streetType": "AVE",
+          "municipality": "LANGLEY BC",
+          "province": "BC",
+          "postalCode": "V2Y3C4",
+          "e911Clli": "LNGL",
+          "eszNumber": "4888"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2545 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA14421820",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "3046122",
+          "FMS_ID": "000523865 / 202",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA5197275"
+        },
+        "unit": "77",
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "3050",
+        "streetNumberSuffix": null,
+        "dirPrefix": "E",
+        "streetTypePrefix": null,
+        "streetName": "54TH",
+        "streetTypeSuffix": "AVENUE",
+        "dirSuffix": null,
+        "city": "VANCOUVER",
+        "province": "BC",
+        "postalCode": "V5S1Y5",
+        "country": "CAN",
+        "coid": "HMLKBC",
+        "serviceable": "EXISTING",
+        "serviceableCode": "2",
+        "buildingType": "MDU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "12",
+        "busLineCount": "0",
+        "mduSfuCount": "12",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": "FIFA",
+        "locationComments": { "addressComment": "PRIMEX BOX IN LIVING ROOM" },
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 49.2200647000073,
+          "longitude": -123.0425485
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "FDSA",
+            "zoneName": "4121A",
+            "zoneAttributes": {
+              "COID": "HMLKBC",
+              "FSA_READY_DATE": "17 Feb 2017",
+              "FSA_LAUNCH_DATE": null,
+              "FSA_BAU_DATE": "28 Jan 2018"
+            }
+          },
+          {
+            "zoneType": "DSA",
+            "zoneName": "4121",
+            "zoneAttributes": { "COID": "HMLKBC" }
+          },
+          {
+            "zoneType": "OEB",
+            "zoneName": "HEMLOCK (BC)",
+            "zoneAttributes": {
+              "COID": "HMLKBC",
+              "CO_CLLI": "VANCBC06",
+              "CO_SAP_NAME": "HMLK"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Vancouver",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-08:00",
+              "TIME_ZONE_NAME": "Pacific Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "PST",
+              "TIME_ZONE_REGIONS": "America/Vancouver"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "4261",
+            "zoneAttributes": { "E911_MUNICIPALITY": "VAN BC" }
+          }
+        ],
+        "inventoryInfo": {
+          "DROP_STATUS": "Constructed",
+          "DROP_COMPLETION_DATE": "2018-04-01 00:00:00.0",
+          "NAP_DETAILS": "HMLKBC - 39757",
+          "NETWORK_ID": "2626154",
+          "SAP_PROJECT_CODE": "P16400920100000000      "
+        },
+        "fmsAddress": {
+          "saNo": "000523865",
+          "rescCd": "202",
+          "saAptNo": "77",
+          "saHouse": "3050",
+          "saVectorCode": "E",
+          "saStreetName": "54TH AVE",
+          "saCityProvinceCode": "VAN BC",
+          "saPostalCode": "V5S1Y5",
+          "saCLLICode": "VANC",
+          "servCoid": "HMLK",
+          "saClliProvCd": "BC"
+        },
+        "e911Address": {
+          "unit": "77",
+          "houseNumber": "3050",
+          "streetName": "54TH",
+          "streetType": "AVE",
+          "streetVectorPrefix": "E",
+          "municipality": "VAN BC",
+          "province": "BC",
+          "postalCode": "V5S1Y5",
+          "e911Clli": "VANC",
+          "eszNumber": "4261"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2797 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA13596057",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "3011111",
+          "FMS_ID": "004045351 / 202",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA4423206"
+        },
+        "unit": "214",
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "1077",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "56",
+        "streetTypeSuffix": "STREET",
+        "dirSuffix": null,
+        "city": "TSAWWASSEN",
+        "province": "BC",
+        "postalCode": "V4L2A2",
+        "country": "CAN",
+        "coid": "BHGVBC",
+        "serviceable": "EXISTING",
+        "serviceableCode": "2",
+        "buildingType": "MTU",
+        "premiseCountFlag": "Y",
+        "premiseCountDate": "17-08-10",
+        "postalCodeUpdtTS": null,
+        "resLineCount": "67",
+        "busLineCount": "31",
+        "mduSfuCount": "67",
+        "projectSubType": "Low-Rise (2,3 or 4 storeys)",
+        "firstNationInd": "N",
+        "exceptionCode": "FIFA",
+        "locationComments": {
+          "addressComment": "IN SUITE - AT TELUS COPPER DEMARC"
+        },
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 49.0222690000079,
+          "longitude": -123.07002
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "FDSA",
+            "zoneName": "4011A",
+            "zoneAttributes": {
+              "COID": "BHGVBC",
+              "FSA_READY_DATE": "26 Jun 2017",
+              "FSA_LAUNCH_DATE": null,
+              "FSA_BAU_DATE": "11 Jun 2019"
+            }
+          },
+          {
+            "zoneType": "DSA",
+            "zoneName": "4011",
+            "zoneAttributes": { "COID": "BHGVBC" }
+          },
+          {
+            "zoneType": "OEB",
+            "zoneName": "BEACH GROVE (BC)",
+            "zoneAttributes": {
+              "COID": "BHGVBC",
+              "CO_CLLI": "DELTBC02",
+              "CO_SAP_NAME": "BHGV"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Vancouver",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-08:00",
+              "TIME_ZONE_NAME": "Pacific Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "PST",
+              "TIME_ZONE_REGIONS": "America/Vancouver"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "4943",
+            "zoneAttributes": { "E911_MUNICIPALITY": "TSAWWASSEN BC" }
+          }
+        ],
+        "inventoryInfo": {
+          "NAP_DETAILS": "BHGVBC - 36309",
+          "NETWORK_ID": "2657483",
+          "BUSINESS_CLASSIFICATION": "Optician/Optometrist",
+          "BUSINESS_NAME": "Tsawwassen Optometry Clinic",
+          "BUSINESS_SEGMENT": "Healthcare",
+          "EXTERNAL_DOOR": "Internal"
+        },
+        "fmsAddress": {
+          "saNo": "004045351",
+          "rescCd": "202",
+          "saAptNo": "214",
+          "saHouse": "1077",
+          "saStreetName": "56 ST",
+          "saCityProvinceCode": "TSAWWASSEN BC",
+          "saPostalCode": "V4L2A2",
+          "saCLLICode": "TWSN",
+          "servCoid": "BHGV",
+          "saClliProvCd": "BC"
+        },
+        "e911Address": {
+          "unit": "214",
+          "houseNumber": "1077",
+          "streetName": "56",
+          "streetType": "ST",
+          "municipality": "TSAWWASSEN BC",
+          "province": "BC",
+          "postalCode": "V4L2A2",
+          "e911Clli": "TWSN",
+          "eszNumber": "4943"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2597 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA13724852",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "3069019",
+          "FMS_ID": "005614983 / 202",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA4523433"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "14660",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "59",
+        "streetTypeSuffix": "AVENUE",
+        "dirSuffix": null,
+        "city": "SURREY",
+        "province": "BC",
+        "postalCode": "V3S0V7",
+        "country": "CAN",
+        "coid": "NWTNBC",
+        "serviceable": "EXISTING",
+        "serviceableCode": "2",
+        "buildingType": "SFU",
+        "premiseCountFlag": "Y",
+        "premiseCountDate": "17-10-26",
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": "FIFA",
+        "locationComments": { "addressComment": "2084009 COMPLETE 2003/05/09" },
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 49.1101907600077,
+          "longitude": -122.8164325
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "FDSA",
+            "zoneName": "3082A",
+            "zoneAttributes": {
+              "COID": "NWTNBC",
+              "FSA_READY_DATE": "07 Dec 2017",
+              "FSA_LAUNCH_DATE": null,
+              "FSA_BAU_DATE": "11 Sep 2018"
+            }
+          },
+          {
+            "zoneType": "DSA",
+            "zoneName": "3081",
+            "zoneAttributes": { "COID": "NWTNBC" }
+          },
+          {
+            "zoneType": "OEB",
+            "zoneName": "NEWTON (BC)",
+            "zoneAttributes": {
+              "COID": "NWTNBC",
+              "CO_CLLI": "SRRYBC02",
+              "CO_SAP_NAME": "NWTN"
+            }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Vancouver",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-08:00",
+              "TIME_ZONE_NAME": "Pacific Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "PST",
+              "TIME_ZONE_REGIONS": "America/Vancouver"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "4574",
+            "zoneAttributes": { "E911_MUNICIPALITY": "SURREY BC" }
+          }
+        ],
+        "inventoryInfo": {
+          "DROP_STATUS": "Constructed",
+          "DROP_COMPLETION_DATE": "2018-07-01 00:00:00.0",
+          "NAP_DETAILS": "NWTNBC - 41460",
+          "NETWORK_ID": "2641502",
+          "SAP_PROJECT_CODE": "P16403590100000000      "
+        },
+        "fmsAddress": {
+          "saNo": "005614983",
+          "rescCd": "202",
+          "saHouse": "14660",
+          "saStreetName": "59 AVE",
+          "saCityProvinceCode": "SURREY BC",
+          "saPostalCode": "NPC",
+          "saCLLICode": "SRRY",
+          "servCoid": "NWTN",
+          "saClliProvCd": "BC"
+        },
+        "e911Address": {
+          "houseNumber": "14660",
+          "streetName": "59",
+          "streetType": "AVE",
+          "municipality": "SURREY BC",
+          "province": "BC",
+          "e911Clli": "SRRY",
+          "eszNumber": "4574"
+        }
+      }
+    ]
+  },
+
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2688 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10071920",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "2377066",
+          "FMS_ID": "002675086 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA886016"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "253",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "ST PAUL",
+        "streetTypeSuffix": "STREET",
+        "dirSuffix": null,
+        "city": "BURLINGTON",
+        "province": "ON",
+        "postalCode": "L7R3J7",
+        "country": "CAN",
+        "coid": "BURL",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 43.3327820000238,
+          "longitude": -79.779451
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "BURLINGTON(ON)",
+            "zoneAttributes": { "CO_CLLI": "BURLON02", "CO_SAP_NAME": "TO01" }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Toronto",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-05:00",
+              "TIME_ZONE_NAME": "Eastern Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "EST",
+              "TIME_ZONE_REGIONS": "America/Toronto"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "9030",
+            "zoneAttributes": { "E911_MUNICIPALITY": "BURLINGTON" }
+          },
+          {
+            "zoneType": "RVCSA",
+            "zoneName": "GUELPH LINE",
+            "zoneAttributes": {
+              "CLLI": "BURLON02",
+              "LATITUDE": "43.328032",
+              "LONGITUDE": "-79.800543"
+            }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "002675086",
+          "rescCd": "201",
+          "saHouse": "253",
+          "saStreetName": "ST PAUL ST",
+          "saCityProvinceCode": "BURLINGTON ON",
+          "saPostalCode": "L7R3J7",
+          "saCLLICode": "BURL",
+          "servCoid": "BURL",
+          "saClliProvCd": "ON"
+        },
+        "e911Address": {
+          "houseNumber": "253",
+          "streetName": "ST PAUL",
+          "streetType": "ST",
+          "municipality": "BURLINGTON",
+          "province": "ON",
+          "postalCode": "L7R3J7",
+          "e911Clli": "BURL",
+          "eszNumber": "9030"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "178 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "15676668",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP5285274",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "15676668",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP5285274"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "895",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "CARRÉ",
+            "streetName": "VAN HOVE",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "MONTRÉAL",
+            "province": "QC",
+            "postalCode": "H4M2W6",
+            "country": "CAN",
+            "coid": "MTRLPQ",
+            "serviceable": "EXISTING",
+            "serviceableCode": "2",
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-04-10 03:27:08.688415",
+            "resLineCount": "1",
+            "busLineCount": "1",
+            "mduSfuCount": "1",
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 45.5005370000181,
+                "longitude": -73.695907
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "MTRLPQ",
+                        "CO_SAP_NAME": "MTRL"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "POINTE-CLAIRE",
+                    "zoneAttributes": {
+                        "CLLI": "PNCLPQ",
+                        "LATITUDE": "45.449012",
+                        "LONGITUDE": "-73.818488"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "176 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "14590048",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP4201894",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "14590048",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4201894"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "1250",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "BOULEVARD",
+            "streetName": "SAINT-JOSEPH",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "DRUMMONDVILLE",
+            "province": "QC",
+            "postalCode": "J2C2E3",
+            "country": "CAN",
+            "coid": "DRUMPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-05-21 14:39:43.471431",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 45.886533000017,
+                "longitude": -72.50195
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "DRUMMONDVILLE (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "DRUMPQ",
+                        "CO_SAP_NAME": "DRUM"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "DRUMMONDVILLE",
+                    "zoneAttributes": {
+                        "CLLI": "DRUMPQ",
+                        "LATITUDE": "45.880761",
+                        "LONGITUDE": "-72.483033"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "178 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "16066897",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP5674807",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "16066897",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP5674807"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "1",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "RUE",
+            "streetName": "JULES-A.-BRILLANT",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "RIMOUSKI",
+            "province": "QC",
+            "postalCode": "G5L1W9",
+            "country": "CAN",
+            "coid": "RMKIPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-05-20 17:27:26.403202",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 48.4498420000096,
+                "longitude": -68.524695
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "FDSA",
+                    "zoneName": "0077",
+                    "zoneAttributes": {
+                        "COID": "RMKIPQ",
+                        "FSA_READY_DATE": "28 Nov 2017",
+                        "FSA_LAUNCH_DATE": null,
+                        "FSA_BAU_DATE": null
+                    }
+                },
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "RIMOUSKI (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "RMKIPQ",
+                        "CO_SAP_NAME": "RMKI"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "RIMOUSKI",
+                    "zoneAttributes": {
+                        "CLLI": "RMKIPQ",
+                        "LATITUDE": "48.45015",
+                        "LONGITUDE": "-68.526608"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "ILEC"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "184 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "15190769",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP4802309",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "15190769",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4802309"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "25",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "RUE",
+            "streetName": "DE L'ÉGLISE",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "MATAPÉDIA",
+            "province": "QC",
+            "postalCode": "G0J1V0",
+            "country": "CAN",
+            "coid": "MTPDPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-03-19 18:19:29.970498",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 47.9734100000109,
+                "longitude": -66.952181
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "FDSA",
+                    "zoneName": "0001",
+                    "zoneAttributes": {
+                        "COID": "MTPDPQ",
+                        "FSA_READY_DATE": null,
+                        "FSA_LAUNCH_DATE": null,
+                        "FSA_BAU_DATE": null
+                    }
+                },
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "MATAPÉDIA (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "MTPDPQ",
+                        "CO_SAP_NAME": "MTPD"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "MATAPÉDIA",
+                    "zoneAttributes": {
+                        "CLLI": "MTPDPQ",
+                        "LATITUDE": "47.97472",
+                        "LONGITUDE": "-66.940925"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "ILEC"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "177 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "14447493",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP4059488",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "14447493",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4059488"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "1177",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "AVENUE",
+            "streetName": "BOURGOGNE",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "CHAMBLY",
+            "province": "QC",
+            "postalCode": "J3L1X3",
+            "country": "CAN",
+            "coid": "STJNPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-04-29 16:00:37.343543",
+            "resLineCount": "1",
+            "busLineCount": "0",
+            "mduSfuCount": "1",
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 45.4563500000182,
+                "longitude": -73.301344
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "ST-JEAN-SUR-RICHELIEU (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "STJNPQ",
+                        "CO_SAP_NAME": "TSRV"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "CHAMBLY",
+                    "zoneAttributes": {
+                        "CLLI": "CMBYPQ",
+                        "LATITUDE": "45.439163",
+                        "LONGITUDE": "-73.290246"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "177 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "14627279",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP4239122",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "14627279",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4239122"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "11",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "BOULEVARD",
+            "streetName": "DE GASPÉ",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "GASPÉ",
+            "province": "QC",
+            "postalCode": "G4X1A1",
+            "country": "CAN",
+            "coid": "GASPPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-05-07 13:07:54.236356",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 48.8312920000084,
+                "longitude": -64.481488
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "FDSA",
+                    "zoneName": "0001",
+                    "zoneAttributes": {
+                        "COID": "GASPPQ",
+                        "FSA_READY_DATE": null,
+                        "FSA_LAUNCH_DATE": null,
+                        "FSA_BAU_DATE": null
+                    }
+                },
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "GASPÉ (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "GASPPQ",
+                        "CO_SAP_NAME": "GASP"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "GASPÉ",
+                    "zoneAttributes": {
+                        "CLLI": "GASPPQ",
+                        "LATITUDE": "48.830744",
+                        "LONGITUDE": "-64.483292"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "ILEC"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "512 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "16266628",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP5874475",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "16266628",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP5874475"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "159",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "AVENUE",
+            "streetName": "DU MONT-COMI",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "SAINT-DONAT",
+            "province": "QC",
+            "postalCode": "G0K1L0",
+            "country": "CAN",
+            "coid": "LUVLPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2020-11-27 16:38:01.816738",
+            "resLineCount": "1",
+            "busLineCount": "0",
+            "mduSfuCount": "1",
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 48.4960500000094,
+                "longitude": -68.249782
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "FDSA",
+                    "zoneName": "0002",
+                    "zoneAttributes": {
+                        "COID": "LUVLPQ",
+                        "FSA_READY_DATE": null,
+                        "FSA_LAUNCH_DATE": null,
+                        "FSA_BAU_DATE": null
+                    }
+                },
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "LUCEVILLE (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "LUVLPQ",
+                        "CO_SAP_NAME": "LUVL"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "LUCEVILLE STE-LUCE",
+                    "zoneAttributes": {
+                        "CLLI": "LUVLPQ",
+                        "LATITUDE": "48.527181",
+                        "LONGITUDE": "-68.346831"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "334 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "1470382",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": "002124684 / 201",
+                "locBuildingId": "AA820599",
+                "locGrpId": "GRP11872914"
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "1470382",
+                "FMS_ID": "002124684 / 201",
+                "BUILDING_GROUP_ID": "GRP11872914",
+                "BUILDING_ID": "AA820599"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "102",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": null,
+            "streetName": "COOPERS",
+            "streetTypeSuffix": "BAY",
+            "dirSuffix": "SW",
+            "city": "AIRDRIE",
+            "province": "AB",
+            "postalCode": "T4B3K2",
+            "country": "CAN",
+            "coid": "ARDRAB",
+            "serviceable": "EXISTING",
+            "serviceableCode": "2",
+            "buildingType": "SFU",
+            "premiseCountFlag": "Y",
+            "premiseCountDate": "27-SEP-18",
+            "postalCodeUpdtTS": "2021-05-18 11:54:50.0841",
+            "resLineCount": "1",
+            "busLineCount": "0",
+            "mduSfuCount": "1",
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": "FIFA",
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 51.270113590002,
+                "longitude": -114.0235158,
+                "locationAccuracyScore": "95",
+                "locationProvider": "ENCEPTA",
+                "locationUpdateTs": "20-NOV-19 06.11.06.154086 AM +00:00"
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "FDSA",
+                    "zoneName": "2041A",
+                    "zoneAttributes": {
+                        "COID": "ARDRAB",
+                        "FSA_READY_DATE": "10 Nov 2020",
+                        "FSA_LAUNCH_DATE": null,
+                        "FSA_BAU_DATE": "13 Oct 2021"
+                    }
+                },
+                {
+                    "zoneType": "DSA",
+                    "zoneName": "2041",
+                    "zoneAttributes": {
+                        "COID": "ARDRAB"
+                    }
+                },
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "AIRDRIE (AB)",
+                    "zoneAttributes": {
+                        "COID": "ARDRAB",
+                        "CO_CLLI": "ARDRAB02",
+                        "CO_SAP_NAME": "ARDR"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Edmonton",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-07:00",
+                        "TIME_ZONE_NAME": "Mountain Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "MST",
+                        "TIME_ZONE_REGIONS": "America/Edmonton"
+                    }
+                },
+                {
+                    "zoneType": "EMERGENCY_SERVICE_ZONE",
+                    "zoneName": "50",
+                    "zoneAttributes": {
+                        "E911_MUNICIPALITY": "CITY OF AIRDRIE"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "ILEC"
+                }
+            ],
+            "fmsAddress": {
+                "saNo": "002124684",
+                "rescCd": "201",
+                "saHouse": "102",
+                "saStreetName": "COOPERS BAY SW",
+                "saCityProvinceCode": "AIRDRIE AB",
+                "saPostalCode": "NPC",
+                "saCLLICode": "ARDR",
+                "servCoid": "ARDR",
+                "saClliProvCd": "AB"
+            },
+            "e911Address": {
+                "houseNumber": "102",
+                "streetName": "COOPERS",
+                "streetType": "BAY",
+                "streetVectorSuffix": "SW",
+                "municipality": "CITY OF AIRDRIE",
+                "province": "AB",
+                "postalCode": "T4B3K2",
+                "e911Clli": "ARDR",
+                "eszNumber": "50"
+            }
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "167 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "15067893",
+            "addressType": "APT",
+            "referenceId": {
+                "fmsId": null,
+                "locBuildingId": "LP4679450",
+                "locGrpId": null
+            },
+            "referenceIds": {
+                "NOTES": "This section will replaced by referenceId section and about to be removed by Q2 2022",
+                "LPDS_ID": "15067893",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4679450"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "2665",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "CHEMIN",
+            "streetName": "DE CHAMBLY",
+            "streetTypeSuffix": null,
+            "dirSuffix": null,
+            "city": "LONGUEUIL",
+            "province": "QC",
+            "postalCode": "J4L1M3",
+            "country": "CAN",
+            "coid": "MTRLPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-06-02 21:41:05.801381",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 45.524897000018,
+                "longitude": -73.4659860000001
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "MTRLPQ",
+                        "CO_SAP_NAME": "MTRL"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "LONGUEUIL",
+                    "zoneAttributes": {
+                        "CLLI": "LNGLPQ",
+                        "LATITUDE": "45.537112",
+                        "LONGITUDE": "-73.506752"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2639 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10069193",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "237706888",
+          "FMS_ID": "002549995 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA887685"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "265",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "ST PAUL",
+        "streetTypeSuffix": "STREET",
+        "dirSuffix": null,
+        "city": "BURLINGTON",
+        "province": "ON",
+        "postalCode": "L7R3J7",
+        "country": "CAN",
+        "coid": "BURL",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 43.3331710000238,
+          "longitude": -79.779973
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "BURLINGTON(ON)",
+            "zoneAttributes": { "CO_CLLI": "BURLON02", "CO_SAP_NAME": "TO01" }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Toronto",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-05:00",
+              "TIME_ZONE_NAME": "Eastern Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "EST",
+              "TIME_ZONE_REGIONS": "America/Toronto"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "9030",
+            "zoneAttributes": { "E911_MUNICIPALITY": "BURLINGTON" }
+          },
+          {
+            "zoneType": "RVCSA",
+            "zoneName": "GUELPH LINE",
+            "zoneAttributes": {
+              "CLLI": "BURLON02",
+              "LATITUDE": "43.328032",
+              "LONGITUDE": "-79.800543"
+            }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "002549995",
+          "rescCd": "201",
+          "saHouse": "265",
+          "saStreetName": "ST PAUL ST",
+          "saCityProvinceCode": "BURLINGTON ON",
+          "saPostalCode": "L7R3J7",
+          "saCLLICode": "BURL",
+          "servCoid": "BURL",
+          "saClliProvCd": "ON"
+        },
+        "e911Address": {
+          "houseNumber": "265",
+          "streetName": "ST PAUL",
+          "streetType": "ST",
+          "municipality": "BURLINGTON",
+          "province": "ON",
+          "postalCode": "L7R3J7",
+          "e911Clli": "BURL",
+          "eszNumber": "9030"
+        }
+      }
+    ]
+  },
+
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2688 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10071920",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "34451",
+          "FMS_ID": "002675086 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA886016"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "253",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "ST PAUL",
+        "streetTypeSuffix": "STREET",
+        "dirSuffix": null,
+        "city": "BURLINGTON",
+        "province": "ON",
+        "postalCode": "L7R3J7",
+        "country": "CAN",
+        "coid": "BURL",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 43.3327820000238,
+          "longitude": -79.779451
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "BURLINGTON(ON)",
+            "zoneAttributes": { "CO_CLLI": "BURLON02", "CO_SAP_NAME": "TO01" }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Toronto",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-05:00",
+              "TIME_ZONE_NAME": "Eastern Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "EST",
+              "TIME_ZONE_REGIONS": "America/Toronto"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "9030",
+            "zoneAttributes": { "E911_MUNICIPALITY": "BURLINGTON" }
+          },
+          {
+            "zoneType": "RVCSA",
+            "zoneName": "GUELPH LINE",
+            "zoneAttributes": {
+              "CLLI": "BURLON02",
+              "LATITUDE": "43.328032",
+              "LONGITUDE": "-79.800543"
+            }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "002675086",
+          "rescCd": "201",
+          "saHouse": "253",
+          "saStreetName": "ST PAUL ST",
+          "saCityProvinceCode": "BURLINGTON ON",
+          "saPostalCode": "L7R3J7",
+          "saCLLICode": "BURL",
+          "servCoid": "BURL",
+          "saClliProvCd": "ON"
+        },
+        "e911Address": {
+          "houseNumber": "253",
+          "streetName": "ST PAUL",
+          "streetType": "ST",
+          "municipality": "BURLINGTON",
+          "province": "ON",
+          "postalCode": "L7R3J7",
+          "e911Clli": "BURL",
+          "eszNumber": "9030"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "2639 milliseconds",
+    "result": true,
+    "Addresses": [
+      {
+        "addressId": "AA10069193",
+        "addressType": "APT",
+        "referenceIds": {
+          "LPDS_ID": "25511",
+          "FMS_ID": "002549995 / 201",
+          "BUILDING_GROUP_ID": null,
+          "BUILDING_ID": "AA887685"
+        },
+        "unit": null,
+        "floor": null,
+        "streetNumberPrefix": null,
+        "streetNumber": "265",
+        "streetNumberSuffix": null,
+        "dirPrefix": null,
+        "streetTypePrefix": null,
+        "streetName": "ST PAUL",
+        "streetTypeSuffix": "STREET",
+        "dirSuffix": null,
+        "city": "BURLINGTON",
+        "province": "ON",
+        "postalCode": "L7R3J7",
+        "country": "CAN",
+        "coid": "BURL",
+        "serviceable": null,
+        "serviceableCode": null,
+        "buildingType": "SXU",
+        "premiseCountFlag": null,
+        "premiseCountDate": null,
+        "postalCodeUpdtTS": null,
+        "resLineCount": "1",
+        "busLineCount": "0",
+        "mduSfuCount": "1",
+        "projectSubType": null,
+        "firstNationInd": "N",
+        "exceptionCode": null,
+        "coordinate": {
+          "srsCode": "4326",
+          "latitude": 43.3331710000238,
+          "longitude": -79.779973
+        },
+        "zoneInfo": [
+          {
+            "zoneType": "OEB",
+            "zoneName": "BURLINGTON(ON)",
+            "zoneAttributes": { "CO_CLLI": "BURLON02", "CO_SAP_NAME": "TO01" }
+          },
+          {
+            "zoneType": "TIME_ZONE",
+            "zoneName": "America/Toronto",
+            "zoneAttributes": {
+              "UTC_OFFSET": "UTC-05:00",
+              "TIME_ZONE_NAME": "Eastern Standard Time",
+              "TIME_ZONE_ABBREVIATIONS": "EST",
+              "TIME_ZONE_REGIONS": "America/Toronto"
+            }
+          },
+          {
+            "zoneType": "EMERGENCY_SERVICE_ZONE",
+            "zoneName": "9030",
+            "zoneAttributes": { "E911_MUNICIPALITY": "BURLINGTON" }
+          },
+          {
+            "zoneType": "RVCSA",
+            "zoneName": "GUELPH LINE",
+            "zoneAttributes": {
+              "CLLI": "BURLON02",
+              "LATITUDE": "43.328032",
+              "LONGITUDE": "-79.800543"
+            }
+          }
+        ],
+        "fmsAddress": {
+          "saNo": "002549995",
+          "rescCd": "201",
+          "saHouse": "265",
+          "saStreetName": "ST PAUL ST",
+          "saCityProvinceCode": "BURLINGTON ON",
+          "saPostalCode": "L7R3J7",
+          "saCLLICode": "BURL",
+          "servCoid": "BURL",
+          "saClliProvCd": "ON"
+        },
+        "e911Address": {
+          "houseNumber": "265",
+          "streetName": "ST PAUL",
+          "streetType": "ST",
+          "municipality": "BURLINGTON",
+          "province": "ON",
+          "postalCode": "L7R3J7",
+          "e911Clli": "BURL",
+          "eszNumber": "9030"
+        }
+      }
+    ]
+  },
+  {
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "175 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "LP2235557",
+            "addressType": "APT",
+            "referenceIds": {
+                "LPDS_ID": "15356329",
+                "FMS_ID": null,
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "LP4967109"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "4285",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": "RUE",
+            "streetName": "ONTARIO",
+            "streetTypeSuffix": null,
+            "dirSuffix": "E",
+            "city": "MONTRÉAL",
+            "province": "QC",
+            "postalCode": "H1V1K4",
+            "country": "CAN",
+            "coid": "MTRLPQ",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "MXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-03-04 16:20:25.284943",
+            "resLineCount": null,
+            "busLineCount": null,
+            "mduSfuCount": null,
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 45.552358000018,
+                "longitude": -73.540204
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "MTRLPQ",
+                        "CO_SAP_NAME": "MTRL"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Montreal",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Montreal"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "MONTRÉAL-EST",
+                    "zoneAttributes": {
+                        "CLLI": "MTLEPQ",
+                        "LATITUDE": "45.631478",
+                        "LONGITUDE": "-73.495208"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "OFF-NET"
+                }
+            ]
+        }
+    ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "176 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR18461772",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "23639009",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP18461772",
+              "BUILDING_ID": "BND18461772"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "1",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "ALEXANDER",
+          "streetTypeSuffix": "STREET",
+          "dirSuffix": null,
+          "city": "CLARENCE-ROCKLAND",
+          "province": "ON",
+          "postalCode": "K4K1K7",
+          "country": "CAN",
+          "coid": "OTWA",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SFU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-03-04 16:19:12.744001",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.5566380000179,
+              "longitude": -75.247356
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "ALMONTE(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "ALMTON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "ROCKLAND",
+                  "zoneAttributes": {
+                      "CLLI": "RKLDON69",
+                      "LATITUDE": "45.549229",
+                      "LONGITUDE": "-75.292955"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ],
+          "tag": [
+              {
+                  "name": "SACG NOT AUDITED",
+                  "desc": "Address is not audited by SACG"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "397 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR15983954",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "21254496",
+              "FMS_ID": "006519881 / 201",
+              "BUILDING_GROUP_ID": "GRP15983954",
+              "BUILDING_ID": "BND15983954"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "123",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "SCARBOROUGH",
+          "streetTypeSuffix": "ROAD",
+          "dirSuffix": null,
+          "city": "TORONTO",
+          "province": "ON",
+          "postalCode": "M4E3M4",
+          "country": "CAN",
+          "coid": "TORO",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SFU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-03-10 01:45:23.325259",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 43.677018000023,
+              "longitude": -79.285314
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "TORONTO(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "TOROON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "EMERGENCY_SERVICE_ZONE",
+                  "zoneName": "9007",
+                  "zoneAttributes": {
+                      "E911_MUNICIPALITY": "TORONTO"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "MAIN ST",
+                  "zoneAttributes": {
+                      "CLLI": "TOROON04",
+                      "LATITUDE": "43.679783",
+                      "LONGITUDE": "-79.297654"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "fmsAddress": {
+              "saNo": "006519881",
+              "rescCd": "201",
+              "saHouse": "123",
+              "saStreetName": "SCARBOROUGH RD",
+              "saCityProvinceCode": "TORONTO ON",
+              "saPostalCode": "M4E3M4",
+              "saCLLICode": "TORO",
+              "servCoid": "TORO",
+              "saClliProvCd": "ON"
+          },
+          "e911Address": {
+              "houseNumber": "123",
+              "streetName": "SCARBOROUGH",
+              "streetType": "RD",
+              "municipality": "TORONTO",
+              "province": "ON",
+              "postalCode": "M4E3M4",
+              "e911Clli": "TORO",
+              "eszNumber": "9007"
+          }
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "986 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR15027128",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "20300462",
+              "FMS_ID": "005568551 / 201",
+              "BUILDING_GROUP_ID": "GRP15027107",
+              "BUILDING_ID": "BND15027107"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "10",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "HUMBERLINE",
+          "streetTypeSuffix": "DRIVE",
+          "dirSuffix": null,
+          "city": "ETOBICOKE",
+          "province": "ON",
+          "postalCode": "M9W6J5",
+          "country": "CAN",
+          "coid": "TORO",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "MDU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "174",
+          "busLineCount": "0",
+          "mduSfuCount": "174",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 43.7316110000228,
+              "longitude": -79.61165
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "TORONTO(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "TOROON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "EMERGENCY_SERVICE_ZONE",
+                  "zoneName": "9013",
+                  "zoneAttributes": {
+                      "E911_MUNICIPALITY": "ETOBICOKE"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "DERRY",
+                  "zoneAttributes": {
+                      "CLLI": "MALTON22",
+                      "LATITUDE": "43.709805",
+                      "LONGITUDE": "-79.637253"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "fmsAddress": {
+              "saNo": "005568551",
+              "rescCd": "201",
+              "saHouse": "10",
+              "saStreetName": "HUMBERLINE DR",
+              "saCityProvinceCode": "ETOBICOKE ON",
+              "saPostalCode": "M9W6J5",
+              "saCLLICode": "EBCK",
+              "servCoid": "TORO",
+              "saClliProvCd": "ON"
+          },
+          "e911Address": {
+              "houseNumber": "10",
+              "streetName": "HUMBERLINE",
+              "streetType": "DR",
+              "municipality": "ETOBICOKE",
+              "province": "ON",
+              "postalCode": "M9W6J5",
+              "e911Clli": "EBCK",
+              "eszNumber": "9013"
+          }
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "849 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP2069997",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "15190769",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP4802309"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "25",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "RUE",
+          "streetName": "DE L'ÉGLISE",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "MATAPÉDIA",
+          "province": "QC",
+          "postalCode": "G0J1V0",
+          "country": "CAN",
+          "coid": "MTPDPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 47.9734100000109,
+              "longitude": -66.952181
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0001",
+                  "zoneAttributes": {
+                      "COID": "MTPDPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "MATAPÉDIA (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "MTPDPQ",
+                      "CO_SAP_NAME": "MTPD"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "MATAPÉDIA",
+                  "zoneAttributes": {
+                      "CLLI": "MTPDPQ",
+                      "LATITUDE": "47.97472",
+                      "LONGITUDE": "-66.940925"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "901 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR13834935",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "19110732",
+              "FMS_ID": "004384920 / 201",
+              "BUILDING_GROUP_ID": "GRP13834935",
+              "BUILDING_ID": "BND13834935"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "1779",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "JANE",
+          "streetTypeSuffix": "STREET",
+          "dirSuffix": null,
+          "city": "NORTH YORK",
+          "province": "ON",
+          "postalCode": "M9N3V7",
+          "country": "CAN",
+          "coid": "TORO",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "MDU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "137",
+          "busLineCount": "0",
+          "mduSfuCount": "137",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 43.7062834451369,
+              "longitude": -79.5046492042317,
+              "locationAccuracyScore": "70",
+              "locationProvider": "BING",
+              "locationUpdateTs": "2020-10-16 20:47:25 -0700"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "TORONTO(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "TOROON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "EMERGENCY_SERVICE_ZONE",
+                  "zoneName": "9010",
+                  "zoneAttributes": {
+                      "E911_MUNICIPALITY": "NORTH YORK"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "BELLEVUE",
+                  "zoneAttributes": {
+                      "CLLI": "TOROON44",
+                      "LATITUDE": "43.699269",
+                      "LONGITUDE": "-79.515926"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "fmsAddress": {
+              "saNo": "004384920",
+              "rescCd": "201",
+              "saHouse": "1779",
+              "saStreetName": "JANE ST",
+              "saCityProvinceCode": "NORTH YORK ON",
+              "saPostalCode": "M9N3V7",
+              "saCLLICode": "NYRK",
+              "servCoid": "TORO",
+              "saClliProvCd": "ON"
+          },
+          "e911Address": {
+              "houseNumber": "1779",
+              "streetName": "JANE",
+              "streetType": "ST",
+              "municipality": "NORTH YORK",
+              "province": "ON",
+              "postalCode": "M9N3V7",
+              "e911Clli": "NYRK",
+              "eszNumber": "9010"
+          }
+      }
+  ]
+},
+{
+    "queryString": null,
+    "version": "V1.0",
+    "executionTime": "322 milliseconds",
+    "result": true,
+    "Addresses": [
+        {
+            "addressId": "AA12231953",
+            "addressType": "APT",
+            "referenceIds": {
+                "LPDS_ID": "1726696",
+                "FMS_ID": "002538628 / 201",
+                "BUILDING_GROUP_ID": null,
+                "BUILDING_ID": "AA3067784"
+            },
+            "unit": null,
+            "floor": null,
+            "streetNumberPrefix": null,
+            "streetNumber": "678",
+            "streetNumberSuffix": null,
+            "dirPrefix": null,
+            "streetTypePrefix": null,
+            "streetName": "GEORGE",
+            "streetTypeSuffix": "STREET",
+            "dirSuffix": null,
+            "city": "PRESCOTT",
+            "province": "ON",
+            "postalCode": "K0E1T0",
+            "country": "CAN",
+            "coid": "OTWA",
+            "serviceable": null,
+            "serviceableCode": null,
+            "buildingType": "SXU",
+            "premiseCountFlag": null,
+            "premiseCountDate": null,
+            "postalCodeUpdtTS": "2021-03-12 06:33:25.676975",
+            "resLineCount": "1",
+            "busLineCount": "0",
+            "mduSfuCount": "1",
+            "projectSubType": null,
+            "firstNationInd": "N",
+            "exceptionCode": null,
+            "coordinate": {
+                "srsCode": "4326",
+                "latitude": 44.7119700000203,
+                "longitude": -75.51973,
+                "locationAccuracyScore": "85",
+                "locationProvider": "BING",
+                "locationUpdateTs": "2020-05-22 22:18:09 -0700"
+            },
+            "zoneInfo": [
+                {
+                    "zoneType": "OEB",
+                    "zoneName": "ALMONTE(ON)",
+                    "zoneAttributes": {
+                        "CO_CLLI": "ALMTON01",
+                        "CO_SAP_NAME": "TO01"
+                    }
+                },
+                {
+                    "zoneType": "TIME_ZONE",
+                    "zoneName": "America/Toronto",
+                    "zoneAttributes": {
+                        "UTC_OFFSET": "UTC-05:00",
+                        "TIME_ZONE_NAME": "Eastern Standard Time",
+                        "TIME_ZONE_ABBREVIATIONS": "EST",
+                        "TIME_ZONE_REGIONS": "America/Toronto"
+                    }
+                },
+                {
+                    "zoneType": "EMERGENCY_SERVICE_ZONE",
+                    "zoneName": "9183",
+                    "zoneAttributes": {
+                        "E911_MUNICIPALITY": "PRESCOTT"
+                    }
+                },
+                {
+                    "zoneType": "RVCSA",
+                    "zoneName": "PRESCOTT",
+                    "zoneAttributes": {
+                        "CLLI": "PRSCON20",
+                        "LATITUDE": "44.708241",
+                        "LONGITUDE": "-75.516614"
+                    }
+                },
+                {
+                    "zoneType": "telusLECA",
+                    "zoneName": "CLEC"
+                }
+            ],
+            "fmsAddress": {
+                "saNo": "002538628",
+                "rescCd": "201",
+                "saHouse": "678",
+                "saStreetName": "GEORGE ST",
+                "saCityProvinceCode": "PRESCOTT ON",
+                "saPostalCode": "K0E1T0",
+                "saCLLICode": "PRSC",
+                "servCoid": "PRSC",
+                "saClliProvCd": "ON"
+            },
+            "e911Address": {
+                "houseNumber": "678",
+                "streetName": "GEORGE",
+                "streetType": "ST",
+                "municipality": "PRESCOTT",
+                "province": "ON",
+                "postalCode": "K0E1T0",
+                "e911Clli": "PRSC",
+                "eszNumber": "9183"
+            }
+        }
+    ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "892 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR17232072",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "22483203",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP17232072",
+              "BUILDING_ID": "BND17232072"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "273",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "BRUNSWICK",
+          "streetTypeSuffix": "STREET",
+          "dirSuffix": null,
+          "city": "FREDERICTON",
+          "province": "NB",
+          "postalCode": "E3B1G8",
+          "country": "CAN",
+          "coid": "MCTN",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SFU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.9624610000168,
+              "longitude": -66.647574
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "FREDERICTON (NB)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "FCTNNBSC",
+                      "CO_SAP_NAME": "MCTN"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Moncton",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-04:00",
+                      "TIME_ZONE_NAME": "Atlantic Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "AST",
+                      "TIME_ZONE_REGIONS": "America/Moncton"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "FREDERICTON",
+                  "zoneAttributes": {
+                      "CLLI": "FCTNNBSC",
+                      "LATITUDE": "45.960716",
+                      "LONGITUDE": "-66.642775"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "tag": [
+              {
+                  "name": "SACG NOT AUDITED",
+                  "desc": "Address is not audited by SACG"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "949 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR18399694",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "23578277",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP18399694",
+              "BUILDING_ID": "BND18399694"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "2711",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "TOPSAIL",
+          "streetTypeSuffix": "ROAD",
+          "dirSuffix": null,
+          "city": "CONCEPTION BAY SOUTH",
+          "province": "NL",
+          "postalCode": "A1W4A2",
+          "country": "CAN",
+          "coid": "STJHNF",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SFU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 47.5225160000122,
+              "longitude": -52.944743
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "ST JOHN'S (NL)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "STJHNFAS",
+                      "CO_SAP_NAME": "LBCY"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/St_Johns",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-03:30",
+                      "TIME_ZONE_NAME": "Newfoundland Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "NST",
+                      "TIME_ZONE_REGIONS": "America/St_Johns"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "MOUNT PEARL",
+                  "zoneAttributes": {
+                      "CLLI": "MTPRNF01",
+                      "LATITUDE": "47.505891",
+                      "LONGITUDE": "-52.791667"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ],
+          "tag": [
+              {
+                  "name": "SACG NOT AUDITED",
+                  "desc": "Address is not audited by SACG"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "810 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR16245366",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "21515792",
+              "FMS_ID": "006781166 / 201",
+              "BUILDING_GROUP_ID": "GRP16245331",
+              "BUILDING_ID": "BND16245331"
+          },
+          "unit": "311",
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "1250",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "EGLINTON",
+          "streetTypeSuffix": "AVE",
+          "dirSuffix": null,
+          "city": "MISSISSAUGA",
+          "province": "ON",
+          "postalCode": "L5V1N3",
+          "country": "CAN",
+          "coid": "OTWA",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "MDU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "14",
+          "busLineCount": "0",
+          "mduSfuCount": "14",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.4076210000184,
+              "longitude": -75.707208
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "OTTAWA(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "OTWAON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "EMERGENCY_SERVICE_ZONE",
+                  "zoneName": "9005",
+                  "zoneAttributes": {
+                      "E911_MUNICIPALITY": "OTTAWA"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "OTTAWA O'CONNOR",
+                  "zoneAttributes": {
+                      "CLLI": "OTWAON23",
+                      "LATITUDE": "45.420308",
+                      "LONGITUDE": "-75.698845"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "fmsAddress": {
+              "saNo": "006781166",
+              "rescCd": "201",
+              "saAptNo": "311",
+              "saHouse": "17",
+              "saStreetName": "WILLOW ST",
+              "saCityProvinceCode": "OTTAWA ON",
+              "saPostalCode": "K1R6V5",
+              "saCLLICode": "OTWA",
+              "servCoid": "OTWA",
+              "saClliProvCd": "ON"
+          },
+          "e911Address": {
+              "unit": "311",
+              "houseNumber": "17",
+              "streetName": "WILLOW",
+              "streetType": "ST",
+              "municipality": "OTTAWA",
+              "province": "ON",
+              "postalCode": "K1R6V5",
+              "e911Clli": "OTWA",
+              "eszNumber": "9005"
+          }
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "2196 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "AA12077687",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "331233",
+              "FMS_ID": "001941853 / 201",
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "AA2913592"
+          },
+          "unit": "13",
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "99",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "BANK",
+          "streetTypeSuffix": "STREET",
+          "dirSuffix": null,
+          "city": "OTTAWA",
+          "province": "ON",
+          "postalCode": "K1P6B9",
+          "country": "CAN",
+          "coid": "OTWA",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "8",
+          "busLineCount": "0",
+          "mduSfuCount": "8",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.4205080000183,
+              "longitude": -75.700099,
+              "locationAccuracyScore": "85",
+              "locationProvider": "BING",
+              "locationUpdateTs": "2020-05-22 21:24:36 -0700"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "OTTAWA(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "OTWAON01",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Toronto",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Toronto"
+                  }
+              },
+              {
+                  "zoneType": "EMERGENCY_SERVICE_ZONE",
+                  "zoneName": "9005",
+                  "zoneAttributes": {
+                      "E911_MUNICIPALITY": "OTTAWA"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "OTTAWA O'CONNOR",
+                  "zoneAttributes": {
+                      "CLLI": "OTWAON23",
+                      "LATITUDE": "45.420308",
+                      "LONGITUDE": "-75.698845"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "CLEC"
+              }
+          ],
+          "fmsAddress": {
+              "saNo": "001941853",
+              "rescCd": "201",
+              "saAptNo": "13",
+              "saHouse": "99",
+              "saStreetName": "BANK ST",
+              "saCityProvinceCode": "OTTAWA ON",
+              "saCLLICode": "OTWA",
+              "servCoid": "OTWA",
+              "saClliProvCd": "ON"
+          },
+          "e911Address": {
+              "unit": "13",
+              "houseNumber": "99",
+              "streetName": "BANK",
+              "streetType": "ST",
+              "municipality": "OTTAWA",
+              "province": "ON",
+              "postalCode": "K1P6B9",
+              "e911Clli": "OTWA",
+              "eszNumber": "9005"
+          }
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1284 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP8308118",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "17775366",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP8308116"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "15",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "BOULEVARD",
+          "streetName": "MONTCALM",
+          "streetTypeSuffix": null,
+          "dirSuffix": "N",
+          "city": "CANDIAC",
+          "province": "QC",
+          "postalCode": "J5R3L4",
+          "country": "CAN",
+          "coid": "MTRLPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "SXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-05-06 16:43:24.215197",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.3923570000184,
+              "longitude": -73.516415
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "MTRLPQ",
+                      "CO_SAP_NAME": "MTRL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "ST-CONSTANT",
+                  "zoneAttributes": {
+                      "CLLI": "SCONPQ",
+                      "LATITUDE": "45.379181",
+                      "LONGITUDE": "-73.564491"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1242 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP8512771",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "17812632",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP8512770",
+              "BUILDING_ID": "LP8512769"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "95",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "BOULEVARD",
+          "streetName": "MONTCALM",
+          "streetTypeSuffix": null,
+          "dirSuffix": "N",
+          "city": "CANDIAC",
+          "province": "QC",
+          "postalCode": "J5R0R8",
+          "country": "CAN",
+          "coid": "MTRLPQ",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-05-04 20:05:55.241706",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.3953140000184,
+              "longitude": -73.518669
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "MTRLPQ",
+                      "CO_SAP_NAME": "MTRL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "ST-CONSTANT",
+                  "zoneAttributes": {
+                      "CLLI": "SCONPQ",
+                      "LATITUDE": "45.379181",
+                      "LONGITUDE": "-73.564491"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "842 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR19380103",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "24539901",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP19380103",
+              "BUILDING_ID": "BND19380103"
+          },
+          "unit": "2",
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "601",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "MOWAT",
+          "streetTypeSuffix": "AVENUE",
+          "dirSuffix": null,
+          "city": "FORT FRANCES",
+          "province": "ON",
+          "postalCode": "P9A1Z2",
+          "country": "CAN",
+          "coid": "BARI",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "MDU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "3",
+          "busLineCount": "0",
+          "mduSfuCount": "3",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.6110110000091,
+              "longitude": -93.398602
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "THUNDER BAY(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "TDBAON32",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Winnipeg",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-06:00",
+                      "TIME_ZONE_NAME": "Central Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "CST",
+                      "TIME_ZONE_REGIONS": "America/Winnipeg"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "FORT FRANCES",
+                  "zoneAttributes": {
+                      "CLLI": "FTFRON16",
+                      "LATITUDE": "48.608976",
+                      "LONGITUDE": "-93.398494"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ],
+          "tag": [
+              {
+                  "name": "SACG NOT AUDITED",
+                  "desc": "Address is not audited by SACG"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "869 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "ADR19379638",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "24539429",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": "GRP19379638",
+              "BUILDING_ID": "BND19379638"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "551",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": null,
+          "streetName": "HOLMES",
+          "streetTypeSuffix": "AVENUE",
+          "dirSuffix": null,
+          "city": "FORT FRANCES",
+          "province": "ON",
+          "postalCode": "P9A3K3",
+          "country": "CAN",
+          "coid": "BARI",
+          "serviceable": "EXISTING",
+          "serviceableCode": "2",
+          "buildingType": "SFU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": null,
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.6095710000091,
+              "longitude": -93.417565
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "THUNDER BAY(ON)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "TDBAON32",
+                      "CO_SAP_NAME": "TO01"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Winnipeg",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-06:00",
+                      "TIME_ZONE_NAME": "Central Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "CST",
+                      "TIME_ZONE_REGIONS": "America/Winnipeg"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "FORT FRANCES",
+                  "zoneAttributes": {
+                      "CLLI": "FTFRON16",
+                      "LATITUDE": "48.608976",
+                      "LONGITUDE": "-93.398494"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ],
+          "tag": [
+              {
+                  "name": "SACG NOT AUDITED",
+                  "desc": "Address is not audited by SACG"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1528 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP3145856",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16266628",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP5874475"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "159",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "AVENUE",
+          "streetName": "DU MONT-COMI",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "SAINT-DONAT",
+          "province": "QC",
+          "postalCode": "G0K1L0",
+          "country": "CAN",
+          "coid": "LUVLPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2020-11-27 16:38:01.816738",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.4960500000094,
+              "longitude": -68.249782
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0002",
+                  "zoneAttributes": {
+                      "COID": "LUVLPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "LUCEVILLE (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "LUVLPQ",
+                      "CO_SAP_NAME": "LUVL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "LUCEVILLE STE-LUCE",
+                  "zoneAttributes": {
+                      "CLLI": "LUVLPQ",
+                      "LATITUDE": "48.527181",
+                      "LONGITUDE": "-68.346831"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1449 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP6619389",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "10053729",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP6619165"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "126",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "AVENUE",
+          "streetName": "ROSS",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "MONT-JOLI",
+          "province": "QC",
+          "postalCode": "G5H1N2",
+          "country": "CAN",
+          "coid": "MTJLPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-04-22 18:43:19.222081",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.5864840000092,
+              "longitude": -68.19649,
+              "locationAccuracyScore": "99",
+              "locationProvider": "TQ_NAAS",
+              "locationUpdateTs": "22-JUN-19 10.11.51.019301 PM +00:00"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0001",
+                  "zoneAttributes": {
+                      "COID": "MTJLPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "MONT-JOLI (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "MTJLPQ",
+                      "CO_SAP_NAME": "MTJL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "MONT-JOLI",
+                  "zoneAttributes": {
+                      "CLLI": "MTJLPQ",
+                      "LATITUDE": "48.586861",
+                      "LONGITUDE": "-68.190651"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1464 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP2954949",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16075721",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP5683629"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "190",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "ROUTE",
+          "streetName": "DES PIONNIERS",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "RIMOUSKI",
+          "province": "QC",
+          "postalCode": "G5N5M9",
+          "country": "CAN",
+          "coid": "SBLNPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-04-22 18:42:07.582004",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.3891840000097,
+              "longitude": -68.473134
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0001",
+                  "zoneAttributes": {
+                      "COID": "SBLNPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "STE-BLANDINE (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "SBLNPQ",
+                      "CO_SAP_NAME": "SBLN"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "RIMOUSKI",
+                  "zoneAttributes": {
+                      "CLLI": "RMKIPQ",
+                      "LATITUDE": "48.45015",
+                      "LONGITUDE": "-68.526608"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1358 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP6619697",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "10055491",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP6619473"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "219",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "RUE",
+          "streetName": "OUELLET",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "RIMOUSKI",
+          "province": "QC",
+          "postalCode": "G5L4R6",
+          "country": "CAN",
+          "coid": "RMKIPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-04-22 18:42:19.148635",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.4412580000096,
+              "longitude": -68.5281579999999,
+              "locationAccuracyScore": "99",
+              "locationProvider": "TQ_NAAS",
+              "locationUpdateTs": "23-JUN-19 02.19.46.580898 AM +00:00"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0066",
+                  "zoneAttributes": {
+                      "COID": "RMKIPQ",
+                      "FSA_READY_DATE": "22 Nov 2017",
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "RIMOUSKI (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "RMKIPQ",
+                      "CO_SAP_NAME": "RMKI"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "RIMOUSKI",
+                  "zoneAttributes": {
+                      "CLLI": "RMKIPQ",
+                      "LATITUDE": "48.45015",
+                      "LONGITUDE": "-68.526608"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1406 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP3145849",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16266621",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP5874468"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "150",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "AVENUE",
+          "streetName": "DU MONT-COMI",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "SAINT-DONAT",
+          "province": "QC",
+          "postalCode": "G0K1L0",
+          "country": "CAN",
+          "coid": "LUVLPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-01-19 18:54:17.706274",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.4960050000094,
+              "longitude": -68.251712,
+              "locationAccuracyScore": "99",
+              "locationProvider": "TQ_NAAS",
+              "locationUpdateTs": "23-JUN-19 02.26.50.334036 AM +00:00"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0002",
+                  "zoneAttributes": {
+                      "COID": "LUVLPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "LUCEVILLE (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "LUVLPQ",
+                      "CO_SAP_NAME": "LUVL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "LUCEVILLE STE-LUCE",
+                  "zoneAttributes": {
+                      "CLLI": "LUVLPQ",
+                      "LATITUDE": "48.527181",
+                      "LONGITUDE": "-68.346831"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1339 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP3337962",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16458734",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP6066567"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "2845",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "CHEMIN",
+          "streetName": "DE L'INDUSTRIE",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "SAINT-MATHIEU-DE-BELOEIL",
+          "province": "QC",
+          "postalCode": "J3G0S3",
+          "country": "CAN",
+          "coid": "STJNPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-01-19 18:54:29.018825",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.5933110000178,
+              "longitude": -73.250487
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "ST-JEAN-SUR-RICHELIEU (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "STJNPQ",
+                      "CO_SAP_NAME": "TSRV"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "BELOEIL",
+                  "zoneAttributes": {
+                      "CLLI": "BLOLPQ",
+                      "LATITUDE": "45.567925",
+                      "LONGITUDE": "-73.203947"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1494 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP6618553",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "10046676",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP6618329"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "300",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "ALLÉE",
+          "streetName": "DES URSULINES",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "RIMOUSKI",
+          "province": "QC",
+          "postalCode": "G5L2Z9",
+          "country": "CAN",
+          "coid": "RMKIPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-04-22 18:42:40.61864",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.4521050000095,
+              "longitude": -68.512139,
+              "locationAccuracyScore": "99",
+              "locationProvider": "TQ_NAAS",
+              "locationUpdateTs": "23-JUN-19 02.19.32.695050 AM +00:00"
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0051",
+                  "zoneAttributes": {
+                      "COID": "RMKIPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "RIMOUSKI (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "RMKIPQ",
+                      "CO_SAP_NAME": "RMKI"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "RIMOUSKI",
+                  "zoneAttributes": {
+                      "CLLI": "RMKIPQ",
+                      "LATITUDE": "48.45015",
+                      "LONGITUDE": "-68.526608"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1423 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP2952882",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16073654",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP5681562"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "365",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "AVENUE",
+          "streetName": "DE L'EURÊKA",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "RIMOUSKI",
+          "province": "QC",
+          "postalCode": "G5M1P2",
+          "country": "CAN",
+          "coid": "RMKIPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-01-19 18:54:23.266361",
+          "resLineCount": "1",
+          "busLineCount": "0",
+          "mduSfuCount": "1",
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 48.5109670000094,
+              "longitude": -68.454307
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0024",
+                  "zoneAttributes": {
+                      "COID": "RMKIPQ",
+                      "FSA_READY_DATE": "01 Jan 2015",
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "RIMOUSKI (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "RMKIPQ",
+                      "CO_SAP_NAME": "RMKI"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "RIMOUSKI",
+                  "zoneAttributes": {
+                      "CLLI": "RMKIPQ",
+                      "LATITUDE": "48.45015",
+                      "LONGITUDE": "-68.526608"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1264 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP1423685",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "14544457",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP4156310"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "11",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "RUE",
+          "streetName": "ACADIA",
+          "streetTypeSuffix": null,
+          "dirSuffix": null,
+          "city": "DOLLARD-DES ORMEAUX",
+          "province": "QC",
+          "postalCode": "H9A1T5",
+          "country": "CAN",
+          "coid": "MTRLPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-01-19 18:54:58.475219",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 45.4990900000181,
+              "longitude": -73.81524
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "MONTRÉAL & RIVE SUD (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "MTRLPQ",
+                      "CO_SAP_NAME": "MTRL"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "POINTE-CLAIRE",
+                  "zoneAttributes": {
+                      "CLLI": "PNCLPQ",
+                      "LATITUDE": "45.449012",
+                      "LONGITUDE": "-73.818488"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "OFF-NET"
+              }
+          ]
+      }
+  ]
+},
+{
+  "queryString": null,
+  "version": "V1.0",
+  "executionTime": "1403 milliseconds",
+  "result": true,
+  "Addresses": [
+      {
+          "addressId": "LP3489370",
+          "addressType": "APT",
+          "referenceIds": {
+              "LPDS_ID": "16610142",
+              "FMS_ID": null,
+              "BUILDING_GROUP_ID": null,
+              "BUILDING_ID": "LP6217914"
+          },
+          "unit": null,
+          "floor": null,
+          "streetNumberPrefix": null,
+          "streetNumber": "332",
+          "streetNumberSuffix": null,
+          "dirPrefix": null,
+          "streetTypePrefix": "BOULEVARD",
+          "streetName": "VACHON",
+          "streetTypeSuffix": null,
+          "dirSuffix": "N",
+          "city": "SAINTE-MARIE",
+          "province": "QC",
+          "postalCode": "G6E1L9",
+          "country": "CAN",
+          "coid": "STMBPQ",
+          "serviceable": null,
+          "serviceableCode": null,
+          "buildingType": "MXU",
+          "premiseCountFlag": null,
+          "premiseCountDate": null,
+          "postalCodeUpdtTS": "2021-05-04 14:26:17.556863",
+          "resLineCount": null,
+          "busLineCount": null,
+          "mduSfuCount": null,
+          "projectSubType": null,
+          "firstNationInd": "N",
+          "exceptionCode": null,
+          "coordinate": {
+              "srsCode": "4326",
+              "latitude": 46.4436890000154,
+              "longitude": -71.023401
+          },
+          "zoneInfo": [
+              {
+                  "zoneType": "FDSA",
+                  "zoneName": "0008",
+                  "zoneAttributes": {
+                      "COID": "STMBPQ",
+                      "FSA_READY_DATE": null,
+                      "FSA_LAUNCH_DATE": null,
+                      "FSA_BAU_DATE": null
+                  }
+              },
+              {
+                  "zoneType": "OEB",
+                  "zoneName": "STE-MARIE (QC)",
+                  "zoneAttributes": {
+                      "CO_CLLI": "STMBPQ",
+                      "CO_SAP_NAME": "STMB"
+                  }
+              },
+              {
+                  "zoneType": "TIME_ZONE",
+                  "zoneName": "America/Montreal",
+                  "zoneAttributes": {
+                      "UTC_OFFSET": "UTC-05:00",
+                      "TIME_ZONE_NAME": "Eastern Standard Time",
+                      "TIME_ZONE_ABBREVIATIONS": "EST",
+                      "TIME_ZONE_REGIONS": "America/Montreal"
+                  }
+              },
+              {
+                  "zoneType": "RVCSA",
+                  "zoneName": "STE-MARIE",
+                  "zoneAttributes": {
+                      "CLLI": "STMBPQ",
+                      "LATITUDE": "46.435842",
+                      "LONGITUDE": "-71.014528"
+                  }
+              },
+              {
+                  "zoneType": "telusLECA",
+                  "zoneName": "ILEC"
+              }
+          ]
+      }
+  ]
+}
+
+
+
+]
